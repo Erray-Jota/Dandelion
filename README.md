@@ -6,6 +6,12 @@ Implementation workspace for [dandelionflowershop.com](https://www.dandelionflow
 
 ## Start Here
 
+### Revenue Strategy (current focus)
+1. **[Revenue Growth Framework](docs/strategy/revenue-growth-framework.md)** — Levers, benchmarks, and 12-month phases
+2. **[Revenue Data Intake](docs/strategy/revenue-data-intake.md)** — What to export/share for analysis
+3. **[Monthly Scorecard Template](docs/strategy/monthly-scorecard-template.csv)** — Track KPIs month over month
+
+### Website Optimization (Week 1)
 1. **[Week 1 Implementation Guide](docs/week-1-implementation-guide.md)** — Day-by-day tasks with live status as of July 25, 2026
 2. **[Site Audit Summary](docs/site-audit-summary.md)** — Full audit findings from the July 2026 review
 3. **[Week 1 QA Checklist](docs/checklists/week-1-qa.md)** — Final verification before marking Week 1 complete
