@@ -10,8 +10,9 @@ Implementation workspace for [dandelionflowershop.com](https://www.dandelionflow
 1. **[Revenue Growth Framework](docs/strategy/revenue-growth-framework.md)** — Levers, benchmarks, and 12-month phases
 2. **[Industry Benchmarks & Alameda Targets](docs/strategy/industry-benchmarks.md)** — AOV, margins, retention, wedding/subscription benchmarks
 3. **[Physical vs. Digital Strategy Map](docs/strategy/physical-vs-digital-strategy.md)** — Which tactics need outbound effort vs. digital marketing
-4. **[Revenue Data Intake](docs/strategy/revenue-data-intake.md)** — What to export/share for analysis
-5. **[Monthly Scorecard Template](docs/strategy/monthly-scorecard-template.csv)** — Track KPIs month over month
+4. **[AI Agents for Revenue Growth](docs/strategy/ai-agents-for-revenue.md)** — Agent concepts mapped to AOV, margin, and repeat-rate targets
+5. **[Revenue Data Intake](docs/strategy/revenue-data-intake.md)** — What to export/share for analysis
+6. **[Monthly Scorecard Template](docs/strategy/monthly-scorecard-template.csv)** — Track KPIs month over month
 
 ### Website Optimization (Week 1)
 1. **[Week 1 Implementation Guide](docs/week-1-implementation-guide.md)** — Day-by-day tasks with live status as of July 25, 2026
