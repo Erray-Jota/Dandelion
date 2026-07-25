@@ -142,6 +142,8 @@ See `docs/checklists/week-1-qa.md`
 |------|------|
 | Products | Commerce → Products |
 | Homepage editor | Pages → Home → Edit |
+| Promotional pop-up | Marketing → Promotional Pop-Up |
+| Announcement bar | Marketing → Announcement Bar |
 | SEO settings | Settings → SEO |
 | Checkout fields | Settings → Selling → Checkout |
 | Pickup | Settings → Selling → Checkout → Pickup |
