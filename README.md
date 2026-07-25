@@ -38,12 +38,14 @@ Implementation workspace for [dandelionflowershop.com](https://www.dandelionflow
 - Sitemap loads successfully
 - Product page "HOW TO ORDER" copy is live
 - Old checkout warning text removed
+- Homepage promotional pop-up removed (Marketing → Promotional Pop-Up); announcement bar kept/updated for delivery area
+- Touch of Honey duplicate removed (appears once)
+- Monthly Flower Subscription Duration: "12 Months Delivery" (typo fixed)
+- Valentine's (vday) products kept hidden for seasonal use
 
 **Still open**
-- Delete duplicate products (Touch of Honey appears twice)
 - Update homepage and shop SEO titles
 - Replace 6 marquee H1 blocks with one H1
-- Remove homepage popup
 - Verify checkout gift message and memorial fields
 - Confirm pickup and local delivery settings
 

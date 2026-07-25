@@ -6,8 +6,9 @@ Quick checkbox version of [master-plan-weekly-priorities.md](../master-plan-week
 ---
 
 ## Week 1 — Stop Revenue Leaks
-- [ ] Remove homepage popup
-- [ ] Delete duplicate products ([list](../product-cleanup.csv))
+- [x] Remove homepage popup
+- [x] Delete duplicate products ([list](../product-cleanup.csv)) — Touch of Honey once; keep vday hidden
+- [x] Fix subscription 12-month typo
 - [ ] Gift message field at checkout
 - [ ] Occasion date field at checkout
 - [ ] Verify pickup + delivery settings
@@ -20,7 +21,7 @@ Quick checkbox version of [master-plan-weekly-priorities.md](../master-plan-week
 - [ ] Premium anchors on shop page ($180–310 visible)
 - [ ] Homepage + Shop SEO titles
 - [ ] Single homepage H1 (remove marquees)
-- [ ] Fix subscription 12-month typo
+- [x] Fix subscription 12-month typo
 - [ ] Recost top 5 SKUs
 - [ ] Post-delivery email (thank-you + review)
 

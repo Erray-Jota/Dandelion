@@ -17,12 +17,12 @@ This guide continues the website optimization work from the prior Cursor audit. 
 | Sitemap loads | ✅ Done | `https://www.dandelionflowershop.com/sitemap.xml` returns HTTP 200 |
 | Product page "HOW TO ORDER" copy | ✅ Done | Live on Touch of Honey product page |
 | Old "REMEMBER TO SELECT..." warning removed | ✅ Done | Not present on product pages |
-| Delete duplicate products | ❌ Open | "Touch of Honey" still appears twice on homepage |
-| Fix subscription typo (!2 → 12 Months) | ❓ Verify | Check Commerce → Products → Subscription variants |
+| Delete duplicate products | ✅ Done | Touch of Honey appears once; keep vday products hidden |
+| Fix subscription typo (!2 → 12 Months) | ✅ Done | Monthly Flower Subscription Duration shows "12 Months Delivery" |
 | Homepage SEO title | ❌ Open | Still "Dandelion Flowers and Gifts" (target: see `docs/copy/seo-titles-and-meta.md`) |
 | Shop SEO title | ❌ Open | Still "Shop — Dandelion Flowers and Gifts" |
 | Single homepage H1 | ❌ Open | 6 H1 tags found (marquee blocks use H1) |
-| Remove homepage popup | ❌ Open | Popup/lightbox code still present |
+| Remove homepage popup | ✅ Done | Disabled Marketing → Promotional Pop-Up; announcement bar kept (“Local Delivery Alameda, Oakland & Berkeley · Tue-Sat”) |
 | Checkout gift message field | ❓ Verify | Copy references it; confirm in Settings → Checkout |
 | Memorial checkout fields | ❓ Verify | Service date/time/location — confirm in checkout settings |
 | Pickup + local delivery settings | ❓ Verify | Confirm in Settings → Selling |
@@ -35,15 +35,16 @@ This guide continues the website optimization work from the prior Cursor audit. 
 
 | Product | Reason | Status |
 |---------|--------|--------|
-| Touch of Honey (Copy) | Live duplicate | ❌ Delete |
-| The Sympathy (Copy) | Hidden duplicate | ❌ Delete |
-| rf6vwz9wsaz7mupq5knnpdfzf308ld | No title | ❌ Delete |
-| rf6vwz9wsaz7mupq5knnpdfzf308ld-gkwj9 | No title | ❌ Delete |
-| vday2, vday3, vday4 | Old seasonal | ❌ Delete |
+| Touch of Honey (Copy) | Live duplicate | ✅ Deleted |
+| The Sympathy (Copy) | Hidden duplicate | ❓ Confirm deleted or still hidden-only |
+| rf6vwz9wsaz7mupq5knnpdfzf308ld | No title | ❓ Confirm if still in Products |
+| rf6vwz9wsaz7mupq5knnpdfzf308ld-gkwj9 | No title | ❓ Confirm if still in Products |
+| vday2, vday3, vday4 | Hidden for Valentine's | ✅ Keep — leave hidden until Valentine's |
 
 ### Fix
 
-- **Subscription variant:** Change "!2 Months Alameda Delivery" → "12 Months Alameda Delivery"
+- **Monthly Flower Subscription → Duration option:** Change `!2 Months Delivery` → `12 Months Delivery`  
+  (This is a variant on that one product — not a second subscription product.)
 
 ### Sitemap
 
@@ -89,11 +90,26 @@ Copy from `docs/copy/seo-titles-and-meta.md` into each page's SEO panel.
 
 ## Thursday — Popup & Gift Message (45 min)
 
-### Remove homepage popup
+### Remove homepage popup (Squarespace 7.1)
 
-- **Pages → Home → Edit**
-- Find the popup/lightbox block → delete or disable
-- Keep the top announcement bar only
+> **Important:** This is **not** edited on the Home page. Editing Pages → Home will not find it.
+
+The live overlay (“Delivering all over the East Bay…” + hours) is Squarespace’s built-in **Promotional Pop-Up**.
+
+1. Log into Squarespace → open the Dandelion site
+2. Left sidebar → **Marketing** → **Promotional Pop-Up**  
+   (Some dashboards: **Marketing → Marketing tools → Promotional Pop-Up**)
+3. Turn **Display pop-up** **OFF**
+4. Click **Save**
+5. Verify in a **private/incognito** window at https://www.dandelionflowershop.com/  
+   (After you close the popup once, normal browsers often hide it via cookie)
+
+**Direct link** (log in first, then pick the site if asked):  
+https://account.squarespace.com/project-picker?client_id=helpcenter&redirect_url=/marketing/popup-overlay
+
+**Keep** the black top **Announcement Bar** — that is a separate feature and should stay.
+
+**If you don’t see Promotional Pop-Up:** note your plan (needs Business+) and check **Settings → Advanced → Code Injection** for third-party popup scripts (e.g. Flodesk).
 
 ### Add gift message at checkout
 
@@ -127,6 +143,8 @@ See `docs/checklists/week-1-qa.md`
 |------|------|
 | Products | Commerce → Products |
 | Homepage editor | Pages → Home → Edit |
+| Promotional pop-up | Marketing → Promotional Pop-Up |
+| Announcement bar | Marketing → Announcement Bar |
 | SEO settings | Settings → SEO |
 | Checkout fields | Settings → Selling → Checkout |
 | Pickup | Settings → Selling → Checkout → Pickup |

@@ -3,10 +3,10 @@ Touch of Honey (Copy),Visible on site,Delete,P0,Live duplicate — appears twice
 The Sympathy (Copy),Hidden duplicate,Delete,P0,Hidden in Squarespace export
 rf6vwz9wsaz7mupq5knnpdfzf308ld,No title / $0,Delete,P0,Untitled product SKU
 rf6vwz9wsaz7mupq5knnpdfzf308ld-gkwj9,No title,Delete,P0,Untitled variant
-vday2,Old seasonal / $0,Delete,P1,Valentine's test product
-vday3,Old seasonal / $0,Delete,P1,Valentine's test product
-vday4,Old seasonal / $0,Delete,P1,Valentine's test product
-Subscription variant !2 Months,Typo in variant name,Fix to 12 Months,P0,Commerce → Products → Subscription
+vday2,Hidden seasonal,Keep (hide until Valentine's),P3,Owner confirmed — intentional Valentine's inventory
+vday3,Hidden seasonal,Keep (hide until Valentine's),P3,Owner confirmed — intentional Valentine's inventory
+vday4,Hidden seasonal,Keep (hide until Valentine's),P3,Owner confirmed — intentional Valentine's inventory
+Monthly Flower Subscription variant !2 Months Delivery,Typo in Duration option,Fix to 12 Months Delivery,P0,Open Monthly Flower Subscription → Variants/Options (not a separate product)
 #1 Mom You Were Always Right,Hidden seasonal,Archive or seasonal toggle,P2,Re-enable for Mother's Day only
 Potted Orchids,Hidden in export / live on site,Verify visibility,P2,Confirm category placement
 The Finishing Touch - Add a card!,Live on site,Enable as checkout upsell,P2,Week 2 CRO task

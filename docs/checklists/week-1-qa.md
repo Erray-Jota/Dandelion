@@ -11,15 +11,15 @@ Run through this list after completing all Week 1 tasks in Squarespace.
 
 ## Catalog
 
-- [ ] No duplicate products visible in shop (especially Touch of Honey)
-- [ ] Subscription variant reads "12 Months Alameda Delivery" (not "!2 Months")
-- [ ] Hidden/test products (vday2, vday3, vday4, untitled SKUs) are deleted
+- [x] No duplicate products visible in shop (especially Touch of Honey)
+- [x] Monthly Flower Subscription Duration option reads "12 Months Delivery" (not "!2 Months Delivery")
+- [ ] Untitled/junk SKUs deleted if present; Valentine's (vday) products may stay hidden for seasonal use
 
 ## Homepage & SEO
 
 - [ ] Homepage has a single H1: "Flower Delivery in Alameda, Oakland & Berkeley"
 - [ ] Marquee H1 blocks removed or changed to H2/normal text
-- [ ] Homepage popup removed; announcement bar remains
+- [x] Homepage promotional pop-up disabled (Marketing → Promotional Pop-Up → Display pop-up OFF); announcement bar remains
 - [ ] Homepage SEO title: "Flower Delivery Alameda & East Bay | Dandelion Flowers"
 - [ ] Shop SEO title: "Order Flowers Online | Alameda Florist Shop"
 
