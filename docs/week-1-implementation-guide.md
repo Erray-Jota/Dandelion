@@ -18,7 +18,7 @@ This guide continues the website optimization work from the prior Cursor audit. 
 | Product page "HOW TO ORDER" copy | ✅ Done | Live on Touch of Honey product page |
 | Old "REMEMBER TO SELECT..." warning removed | ✅ Done | Not present on product pages |
 | Delete duplicate products | ❌ Open | "Touch of Honey" still appears twice on homepage |
-| Fix subscription typo (!2 → 12 Months) | ❓ Verify | Check Commerce → Products → Subscription variants |
+| Fix subscription typo (!2 → 12 Months) | ❌ Open | On **Monthly Flower Subscription** Duration option: "!2 Months Delivery" → "12 Months Delivery" |
 | Homepage SEO title | ❌ Open | Still "Dandelion Flowers and Gifts" (target: see `docs/copy/seo-titles-and-meta.md`) |
 | Shop SEO title | ❌ Open | Still "Shop — Dandelion Flowers and Gifts" |
 | Single homepage H1 | ❌ Open | 6 H1 tags found (marquee blocks use H1) |
@@ -39,11 +39,12 @@ This guide continues the website optimization work from the prior Cursor audit. 
 | The Sympathy (Copy) | Hidden duplicate | ❌ Delete |
 | rf6vwz9wsaz7mupq5knnpdfzf308ld | No title | ❌ Delete |
 | rf6vwz9wsaz7mupq5knnpdfzf308ld-gkwj9 | No title | ❌ Delete |
-| vday2, vday3, vday4 | Old seasonal | ❌ Delete |
+| vday2, vday3, vday4 | Hidden for Valentine's | ✅ Keep — leave hidden until Valentine's |
 
 ### Fix
 
-- **Subscription variant:** Change "!2 Months Alameda Delivery" → "12 Months Alameda Delivery"
+- **Monthly Flower Subscription → Duration option:** Change `!2 Months Delivery` → `12 Months Delivery`  
+  (This is a variant on that one product — not a second subscription product.)
 
 ### Sitemap
 

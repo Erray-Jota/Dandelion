@@ -12,8 +12,8 @@ Run through this list after completing all Week 1 tasks in Squarespace.
 ## Catalog
 
 - [ ] No duplicate products visible in shop (especially Touch of Honey)
-- [ ] Subscription variant reads "12 Months Alameda Delivery" (not "!2 Months")
-- [ ] Hidden/test products (vday2, vday3, vday4, untitled SKUs) are deleted
+- [ ] Monthly Flower Subscription Duration option reads "12 Months Delivery" (not "!2 Months Delivery")
+- [ ] Untitled/junk SKUs deleted; Valentine's (vday) products may stay hidden for seasonal use
 
 ## Homepage & SEO
 
