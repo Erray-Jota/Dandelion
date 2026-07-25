@@ -1,5 +1,7 @@
 # Dandelion Flowers — Week 1 Implementation Guide
 
+> **Note:** This guide is now part of the consolidated **[12-Week Master Plan](master-plan-weekly-priorities.md)**. Week 1 tasks below are prioritized by revenue impact alongside revenue strategy and AI agent setup.
+
 **Site:** https://www.dandelionflowershop.com/  
 **Started:** July 18, 2026  
 **Last audited:** July 25, 2026

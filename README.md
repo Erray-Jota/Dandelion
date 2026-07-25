@@ -1,12 +1,16 @@
 # Dandelion Flowers — Website Optimization
 
-Implementation workspace for [dandelionflowershop.com](https://www.dandelionflowershop.com/) SEO, CRO, and design updates.
+Implementation workspace for [dandelionflowershop.com](https://www.dandelionflowershop.com/) SEO, CRO, revenue growth, and automation.
 
-**Platform:** Squarespace (changes are made in the Squarespace admin, not in this repo)
+**Platform:** Squarespace (website changes are made in the Squarespace admin, not in this repo)
 
 ## Start Here
 
-### Revenue Strategy (current focus)
+### Master Plan (start here)
+1. **[Weekly Priorities — 12-Week Roadmap](docs/master-plan-weekly-priorities.md)** — Consolidated website + revenue + AI plan, ranked by revenue impact
+2. **[Weekly Execution Checklist](docs/checklists/weekly-execution-checklist.md)** — Checkbox tracker for each week
+
+### Revenue Strategy
 1. **[Revenue Growth Framework](docs/strategy/revenue-growth-framework.md)** — Levers, benchmarks, and 12-month phases
 2. **[Industry Benchmarks & Alameda Targets](docs/strategy/industry-benchmarks.md)** — AOV, margins, retention, wedding/subscription benchmarks
 3. **[Physical vs. Digital Strategy Map](docs/strategy/physical-vs-digital-strategy.md)** — Which tactics need outbound effort vs. digital marketing
@@ -14,8 +18,8 @@ Implementation workspace for [dandelionflowershop.com](https://www.dandelionflow
 5. **[Revenue Data Intake](docs/strategy/revenue-data-intake.md)** — What to export/share for analysis
 6. **[Monthly Scorecard Template](docs/strategy/monthly-scorecard-template.csv)** — Track KPIs month over month
 
-### Website Optimization (Week 1)
-1. **[Week 1 Implementation Guide](docs/week-1-implementation-guide.md)** — Day-by-day tasks with live status as of July 25, 2026
+### Website Optimization (detail)
+1. **[Week 1 Implementation Guide](docs/week-1-implementation-guide.md)** — Squarespace task detail + live site status
 2. **[Site Audit Summary](docs/site-audit-summary.md)** — Full audit findings from the July 2026 review
 3. **[Week 1 QA Checklist](docs/checklists/week-1-qa.md)** — Final verification before marking Week 1 complete
 
