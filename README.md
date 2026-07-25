@@ -8,7 +8,8 @@ Implementation workspace for [dandelionflowershop.com](https://www.dandelionflow
 
 ### Master Plan (start here)
 1. **[Weekly Priorities — 12-Week Roadmap](docs/master-plan-weekly-priorities.md)** — Consolidated website + revenue + AI plan, ranked by revenue impact
-2. **[Weekly Execution Checklist](docs/checklists/weekly-execution-checklist.md)** — Checkbox tracker for each week
+2. **[Master Plan (Word)](docs/Dandelion_Master_Plan.docx)** — Downloadable Word document for desktop/printing
+3. **[Weekly Execution Checklist](docs/checklists/weekly-execution-checklist.md)** — Checkbox tracker for each week
 
 ### Revenue Strategy
 1. **[Revenue Growth Framework](docs/strategy/revenue-growth-framework.md)** — Levers, benchmarks, and 12-month phases
