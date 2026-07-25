@@ -38,12 +38,12 @@ Implementation workspace for [dandelionflowershop.com](https://www.dandelionflow
 - Sitemap loads successfully
 - Product page "HOW TO ORDER" copy is live
 - Old checkout warning text removed
+- Homepage promotional pop-up removed (Marketing → Promotional Pop-Up); announcement bar kept/updated for delivery area
 
 **Still open**
 - Delete duplicate products (Touch of Honey appears twice)
 - Update homepage and shop SEO titles
 - Replace 6 marquee H1 blocks with one H1
-- Remove homepage popup (Squarespace 7.1: Marketing → Promotional Pop-Up → Display pop-up OFF — not Home page edit)
 - Verify checkout gift message and memorial fields
 - Confirm pickup and local delivery settings
 

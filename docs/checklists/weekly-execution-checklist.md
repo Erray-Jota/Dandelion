@@ -6,7 +6,7 @@ Quick checkbox version of [master-plan-weekly-priorities.md](../master-plan-week
 ---
 
 ## Week 1 — Stop Revenue Leaks
-- [ ] Remove homepage popup
+- [x] Remove homepage popup
 - [ ] Delete duplicate products ([list](../product-cleanup.csv))
 - [ ] Gift message field at checkout
 - [ ] Occasion date field at checkout

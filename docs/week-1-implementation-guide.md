@@ -22,7 +22,7 @@ This guide continues the website optimization work from the prior Cursor audit. 
 | Homepage SEO title | ❌ Open | Still "Dandelion Flowers and Gifts" (target: see `docs/copy/seo-titles-and-meta.md`) |
 | Shop SEO title | ❌ Open | Still "Shop — Dandelion Flowers and Gifts" |
 | Single homepage H1 | ❌ Open | 6 H1 tags found (marquee blocks use H1) |
-| Remove homepage popup | ❌ Open | Native Squarespace Promotional Pop-Up (not a Home page block) — see Thursday steps |
+| Remove homepage popup | ✅ Done | Disabled Marketing → Promotional Pop-Up; announcement bar kept (“Local Delivery Alameda, Oakland & Berkeley · Tue-Sat”) |
 | Checkout gift message field | ❓ Verify | Copy references it; confirm in Settings → Checkout |
 | Memorial checkout fields | ❓ Verify | Service date/time/location — confirm in checkout settings |
 | Pickup + local delivery settings | ❓ Verify | Confirm in Settings → Selling |
