@@ -19,7 +19,7 @@ Run through this list after completing all Week 1 tasks in Squarespace.
 
 - [ ] Homepage has a single H1: "Flower Delivery in Alameda, Oakland & Berkeley"
 - [ ] Marquee H1 blocks removed or changed to H2/normal text
-- [ ] Homepage popup removed; announcement bar remains
+- [ ] Homepage promotional pop-up disabled (Marketing → Promotional Pop-Up → Display pop-up OFF); announcement bar remains
 - [ ] Homepage SEO title: "Flower Delivery Alameda & East Bay | Dandelion Flowers"
 - [ ] Shop SEO title: "Order Flowers Online | Alameda Florist Shop"
 

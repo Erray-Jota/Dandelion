@@ -22,7 +22,7 @@ This guide continues the website optimization work from the prior Cursor audit. 
 | Homepage SEO title | ❌ Open | Still "Dandelion Flowers and Gifts" (target: see `docs/copy/seo-titles-and-meta.md`) |
 | Shop SEO title | ❌ Open | Still "Shop — Dandelion Flowers and Gifts" |
 | Single homepage H1 | ❌ Open | 6 H1 tags found (marquee blocks use H1) |
-| Remove homepage popup | ❌ Open | Popup/lightbox code still present |
+| Remove homepage popup | ❌ Open | Native Squarespace Promotional Pop-Up (not a Home page block) — see Thursday steps |
 | Checkout gift message field | ❓ Verify | Copy references it; confirm in Settings → Checkout |
 | Memorial checkout fields | ❓ Verify | Service date/time/location — confirm in checkout settings |
 | Pickup + local delivery settings | ❓ Verify | Confirm in Settings → Selling |
@@ -89,11 +89,26 @@ Copy from `docs/copy/seo-titles-and-meta.md` into each page's SEO panel.
 
 ## Thursday — Popup & Gift Message (45 min)
 
-### Remove homepage popup
+### Remove homepage popup (Squarespace 7.1)
 
-- **Pages → Home → Edit**
-- Find the popup/lightbox block → delete or disable
-- Keep the top announcement bar only
+> **Important:** This is **not** edited on the Home page. Editing Pages → Home will not find it.
+
+The live overlay (“Delivering all over the East Bay…” + hours) is Squarespace’s built-in **Promotional Pop-Up**.
+
+1. Log into Squarespace → open the Dandelion site
+2. Left sidebar → **Marketing** → **Promotional Pop-Up**  
+   (Some dashboards: **Marketing → Marketing tools → Promotional Pop-Up**)
+3. Turn **Display pop-up** **OFF**
+4. Click **Save**
+5. Verify in a **private/incognito** window at https://www.dandelionflowershop.com/  
+   (After you close the popup once, normal browsers often hide it via cookie)
+
+**Direct link** (log in first, then pick the site if asked):  
+https://account.squarespace.com/project-picker?client_id=helpcenter&redirect_url=/marketing/popup-overlay
+
+**Keep** the black top **Announcement Bar** — that is a separate feature and should stay.
+
+**If you don’t see Promotional Pop-Up:** note your plan (needs Business+) and check **Settings → Advanced → Code Injection** for third-party popup scripts (e.g. Flodesk).
 
 ### Add gift message at checkout
 
