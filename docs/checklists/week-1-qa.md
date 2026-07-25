@@ -11,9 +11,9 @@ Run through this list after completing all Week 1 tasks in Squarespace.
 
 ## Catalog
 
-- [ ] No duplicate products visible in shop (especially Touch of Honey)
-- [ ] Monthly Flower Subscription Duration option reads "12 Months Delivery" (not "!2 Months Delivery")
-- [ ] Untitled/junk SKUs deleted; Valentine's (vday) products may stay hidden for seasonal use
+- [x] No duplicate products visible in shop (especially Touch of Honey)
+- [x] Monthly Flower Subscription Duration option reads "12 Months Delivery" (not "!2 Months Delivery")
+- [ ] Untitled/junk SKUs deleted if present; Valentine's (vday) products may stay hidden for seasonal use
 
 ## Homepage & SEO
 
