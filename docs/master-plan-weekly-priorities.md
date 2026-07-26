@@ -26,7 +26,7 @@ Work is ranked by **expected revenue impact per hour invested**, not by task cat
 
 ## Target Metrics (Alameda-adjusted)
 
-Track monthly via [2026 scorecard](strategy/monthly-scorecard-2026.csv) ([template](strategy/monthly-scorecard-template.csv)). Full write-up: [Revenue Baseline 2026 YTD](strategy/revenue-baseline-2026-ytd.md).
+Track monthly via [2026 scorecard](strategy/monthly-scorecard-2026.csv) ([template](strategy/monthly-scorecard-template.csv)). Full write-up: [Revenue Baseline 2026 YTD](strategy/revenue-baseline-2026-ytd.md) · [Benchmark analysis](strategy/revenue-analysis-benchmarks.md).
 
 | Metric | Baseline (measured Jul 2026) | 90-day target | 12-month target |
 |--------|------------------------------|---------------|-----------------|
@@ -201,8 +201,8 @@ Track monthly via [2026 scorecard](strategy/monthly-scorecard-2026.csv) ([templa
 |------|--------|------|
 | **Revenue Analyst review** — AOV, channel mix, seasonality | ✅ [Done](strategy/revenue-customer-aov-analysis.md) | — |
 | Complete [monthly scorecard](strategy/monthly-scorecard-2026.csv) | ✅ 2026 YTD filled with GP% | — |
-| Compare actuals vs. [benchmarks](strategy/industry-benchmarks.md) | Prioritization | 1 hr |
-| **Choose 2 focus metrics** for next 8 weeks | Focus | 30 min |
+| Compare actuals vs. [benchmarks](strategy/industry-benchmarks.md) | ✅ [Revenue analysis vs Alameda targets](strategy/revenue-analysis-benchmarks.md) | — |
+| **Choose 2 focus metrics** for next 8 weeks | ✅ **POS median AOV $49→$75** + **GP% 31.5%→38%** | — |
 
 ### Website (fill gaps only)
 
@@ -221,7 +221,7 @@ Track monthly via [2026 scorecard](strategy/monthly-scorecard-2026.csv) ([templa
 **Week 4 success criteria:**
 - [x] Scorecard filled with real baseline (+ gross margin %)
 - [x] Revenue / customer / AOV analysis complete
-- [ ] 90-day targets written (2 metrics) — see analysis doc §5
+- [x] 90-day targets written (2 metrics) — POS AOV + GP%; see [benchmark analysis](strategy/revenue-analysis-benchmarks.md) §8
 - [ ] Week 1 website QA complete
 - [x] Margin issues list created → [product-margin-analysis](strategy/product-margin-analysis.md) (all 9 heroes below 38% full-COGS GP)
 
@@ -511,6 +511,7 @@ These five items alone address conversion, AOV, data, and retention — the high
 | Physical vs digital | [strategy/physical-vs-digital-strategy.md](strategy/physical-vs-digital-strategy.md) |
 | AI agents | [strategy/ai-agents-for-revenue.md](strategy/ai-agents-for-revenue.md) |
 | Data intake | [strategy/revenue-data-intake.md](strategy/revenue-data-intake.md) |
+| Benchmark analysis | [strategy/revenue-analysis-benchmarks.md](strategy/revenue-analysis-benchmarks.md) |
 | QA checklist | [checklists/week-1-qa.md](checklists/week-1-qa.md) |
 
 ---

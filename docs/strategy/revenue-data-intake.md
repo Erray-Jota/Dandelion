@@ -102,4 +102,6 @@ Once data is shared:
 ### Latest delivery
 
 - **[Revenue Baseline 2026 YTD](revenue-baseline-2026-ytd.md)** — channel dashboard from commerce exports
-- **[Revenue, Customer & AOV Analysis](revenue-customer-aov-analysis.md)** — Week 4 deliverable with COGS/margin from accounts
+- **[Revenue Analysis vs Benchmarks](revenue-analysis-benchmarks.md)** — Week 4: actuals vs national + Alameda targets
+- **[Revenue, Customer & AOV Analysis](revenue-customer-aov-analysis.md)** — channel + customer deep dive
+- **[Product Margin Analysis](product-margin-analysis.md)** — predicted SKU margins from weekly COGS
