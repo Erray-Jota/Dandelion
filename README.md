@@ -16,8 +16,11 @@ Implementation workspace for [dandelionflowershop.com](https://www.dandelionflow
 2. **[Industry Benchmarks & Alameda Targets](docs/strategy/industry-benchmarks.md)** — AOV, margins, retention, wedding/subscription benchmarks
 3. **[Physical vs. Digital Strategy Map](docs/strategy/physical-vs-digital-strategy.md)** — Which tactics need outbound effort vs. digital marketing
 4. **[AI Agents for Revenue Growth](docs/strategy/ai-agents-for-revenue.md)** — Agent concepts mapped to AOV, margin, and repeat-rate targets
-5. **[Revenue Data Intake](docs/strategy/revenue-data-intake.md)** — What to export/share for analysis
-6. **[Monthly Scorecard Template](docs/strategy/monthly-scorecard-template.csv)** — Track KPIs month over month
+5. **[Revenue Baseline 2026 YTD](docs/strategy/revenue-baseline-2026-ytd.md)** — Analysis from Square + Stripe exports (July 26, 2026)
+6. **[Revenue Data Intake](docs/strategy/revenue-data-intake.md)** — What to export/share for analysis
+7. **[Monthly Scorecard (2026)](docs/strategy/monthly-scorecard-2026.csv)** — Filled Square baseline + open online/margin fields
+8. **[Monthly Scorecard Template](docs/strategy/monthly-scorecard-template.csv)** — Blank KPI tracker
+9. **[Raw revenue exports](data/revenue/)** — Square transactions/customers + Stripe customers
 
 ### Website Optimization (detail)
 1. **[Week 1 Implementation Guide](docs/week-1-implementation-guide.md)** — Squarespace task detail + live site status
@@ -32,12 +35,13 @@ Implementation workspace for [dandelionflowershop.com](https://www.dandelionflow
 | [seo-titles-and-meta.md](docs/copy/seo-titles-and-meta.md) | Pages → [Page] → SEO settings |
 | [product-cleanup.csv](docs/product-cleanup.csv) | Commerce → Products cleanup list |
 
-## Week 1 Progress (July 25, 2026)
+## Week 1 Progress (July 26, 2026)
 
 **Done**
 - Sitemap loads successfully
 - Product page "HOW TO ORDER" copy is live
 - Old checkout warning text removed
+- Revenue data uploaded (Square + Stripe) — see [baseline analysis](docs/strategy/revenue-baseline-2026-ytd.md)
 
 **Still open**
 - Delete duplicate products (Touch of Honey appears twice)
@@ -46,6 +50,7 @@ Implementation workspace for [dandelionflowershop.com](https://www.dandelionflow
 - Remove homepage popup
 - Verify checkout gift message and memorial fields
 - Confirm pickup and local delivery settings
+- Stripe **payments** export + COGS (for online monthly + margin)
 
 ## Contact
 

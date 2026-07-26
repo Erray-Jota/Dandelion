@@ -8,8 +8,8 @@ Use this checklist when feeding financial data into the revenue analysis. Share 
 
 | Data | Source | Format | Status |
 |------|--------|--------|--------|
-| Monthly revenue, last 12–24 months | Square / Squarespace / bank | CSV or Excel | ☐ |
-| Monthly order count | Square / Squarespace orders export | CSV | ☐ |
+| Monthly revenue, last 12–24 months | Square / Squarespace / bank | CSV or Excel | ✅ Square Jan–Jul 2026 (see [baseline](revenue-baseline-2026-ytd.md)); Stripe monthly still needed |
+| Monthly order count | Square / Squarespace orders export | CSV | ✅ Square YTD; online monthly incomplete |
 | Annual total revenue (2024 vs 2025) | Tax records / P&L | Number or spreadsheet | ☐ |
 
 ---
@@ -18,9 +18,9 @@ Use this checklist when feeding financial data into the revenue analysis. Share 
 
 | Data | Source | What it unlocks | Status |
 |------|--------|-----------------|--------|
-| Sales by product (SKU/name) | Squarespace Commerce export | Hero products, margin focus, catalog pruning | ☐ |
-| Sales by category | POS or manual tags | Everyday vs. sympathy vs. sub vs. wedding | ☐ |
-| Online vs. in-store vs. phone | Square / manual estimate | Channel investment priority | ☐ |
+| Sales by product (SKU/name) | Squarespace Commerce export | Hero products, margin focus, catalog pruning | 🟡 Partial — Square descriptions only (messy SKUs) |
+| Sales by category | POS or manual tags | Everyday vs. sympathy vs. sub vs. wedding | 🟡 Inferred; wedding/sympathy under-tagged |
+| Online vs. in-store vs. phone | Square / manual estimate | Channel investment priority | 🟡 Square POS vs invoices; Stripe = online proxy |
 | Subscription revenue separately | Square recurring or manual | MRR, churn, LTV | ☐ |
 | Wedding revenue (annual) | Invoices / deposits | Event pipeline value | ☐ |
 | Wire / third-party orders | FTD / Teleflora statements | Fee drag analysis | ☐ |
@@ -31,11 +31,11 @@ Use this checklist when feeding financial data into the revenue analysis. Share 
 
 | Data | Source | What it unlocks | Status |
 |------|--------|-----------------|--------|
-| COGS or wholesale spend (monthly) | Vendor invoices / QuickBooks | Gross margin % |
-| Top product recipe costs | Internal costing sheet | Pricing corrections |
-| Delivery count per week | Driver log / dispatch | Cost per delivery |
-| Waste / shrink notes | Shop estimate | Margin leak identification |
-| Labor hours (design + delivery) | Payroll / estimate | True cost per order |
+| COGS or wholesale spend (monthly) | Vendor invoices / QuickBooks | Gross margin % | ☐ |
+| Top product recipe costs | Internal costing sheet | Pricing corrections | ☐ |
+| Delivery count per week | Driver log / dispatch | Cost per delivery | ☐ |
+| Waste / shrink notes | Shop estimate | Margin leak identification | ☐ |
+| Labor hours (design + delivery) | Payroll / estimate | True cost per order | ☐ |
 
 ---
 
@@ -43,10 +43,10 @@ Use this checklist when feeding financial data into the revenue analysis. Share 
 
 | Data | Source | What it unlocks | Status |
 |------|--------|-----------------|--------|
-| Customer email list size | Squarespace / Mailchimp | Retention campaign reach |
-| Repeat purchase rate | Square customer report | Retention health |
-| Active subscription count | Manual / POS | Recurring base size |
-| Corporate accounts (if any) | AR / invoice list | B2B expansion baseline |
+| Customer email list size | Squarespace / Mailchimp | Retention campaign reach | ✅ ~5,350 unique emails (Square 1,316 + Stripe 4,185 − overlap) |
+| Repeat purchase rate | Square customer report | Retention health | ✅ Square lifetime 31% (2+ txs); Stripe multi-pay 21% |
+| Active subscription count | Manual / POS | Recurring base size | ☐ |
+| Corporate accounts (if any) | AR / invoice list | B2B expansion baseline | 🟡 Only 6 Square profiles with company name |
 
 ---
 
@@ -98,3 +98,7 @@ Once data is shared:
 3. **2–3 prioritized growth levers** with numeric targets
 4. **Margin recommendations** — pricing, product mix, cost controls
 5. **90-day action plan** tied to measurable outcomes
+
+### Latest delivery
+
+**[Revenue Baseline 2026 YTD](revenue-baseline-2026-ytd.md)** — completed July 26, 2026 from the Square + Stripe CSVs in [`data/revenue/`](../../data/revenue/).
