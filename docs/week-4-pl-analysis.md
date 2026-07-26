@@ -1,5 +1,7 @@
 # Week 4 — P&L Analysis & Benchmark Comparison
 
+> **Superseded:** This report has been merged into the [Consolidated Business Analysis](dandelion-consolidated-analysis.md). Use that document for the single source of truth.
+
 **Prepared:** July 26, 2026  
 **Plan reference:** [Week 4 — Measure & Recost](master-plan-weekly-priorities.md#week-4--measure--recost-foundation)  
 **Benchmarks:** [industry-benchmarks.md](strategy/industry-benchmarks.md) · [revenue-baseline-2026-ytd.md](strategy/revenue-baseline-2026-ytd.md)

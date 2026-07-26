@@ -1,5 +1,7 @@
 # Revenue Analysis — Benchmarks & Alameda Targets
 
+> **Superseded:** This report has been merged into the [Consolidated Business Analysis](../dandelion-consolidated-analysis.md). Use that document for the single source of truth.
+
 **Prepared:** July 26, 2026 (Week 4 deliverable)  
 **Purpose:** Compare Dandelion measured actuals to national industry benchmarks and Alameda-adjusted targets from the [12-week master plan](../master-plan-weekly-priorities.md)  
 **Sources:** Commerce exports · Accounts COGS · [Industry Benchmarks](industry-benchmarks.md)  
