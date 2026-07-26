@@ -16,15 +16,19 @@ Implementation workspace for [dandelionflowershop.com](https://www.dandelionflow
 2. **[Industry Benchmarks & Alameda Targets](docs/strategy/industry-benchmarks.md)** — AOV, margins, retention, wedding/subscription benchmarks
 3. **[Physical vs. Digital Strategy Map](docs/strategy/physical-vs-digital-strategy.md)** — Which tactics need outbound effort vs. digital marketing
 4. **[AI Agents for Revenue Growth](docs/strategy/ai-agents-for-revenue.md)** — Agent concepts mapped to AOV, margin, and repeat-rate targets
-5. **[Revenue Baseline 2026 YTD](docs/strategy/revenue-baseline-2026-ytd.md)** — Channel dashboard from Square + Squarespace + Stripe exports
-6. **[Revenue Analysis vs Benchmarks](docs/strategy/revenue-analysis-benchmarks.md)** — Week 4: actuals vs national + Alameda targets
+5. **[Week 4 P&L Analysis](docs/week-4-pl-analysis.md)** — Annual P&L vs. Alameda benchmarks + 90-day focus metrics (July 26, 2026)
+   - **[Download Word version](docs/Week_4_PL_Analysis.docx)**
+6. **[Revenue Baseline 2026 YTD](docs/strategy/revenue-baseline-2026-ytd.md)** — Channel dashboard from Square + Squarespace + Stripe exports
+7. **[Revenue Analysis vs Benchmarks](docs/strategy/revenue-analysis-benchmarks.md)** — Week 4: actuals vs national + Alameda targets
    - **[Revenue Analysis Report (Word)](docs/Dandelion_Revenue_Analysis_Report.docx)** — Downloadable Week 4 report for desktop/printing
-7. **[Product Margin Analysis](docs/strategy/product-margin-analysis.md)** — Weekly COGS allocation model; predicted margins by SKU
-8. **[Revenue, Customer & AOV Analysis](docs/strategy/revenue-customer-aov-analysis.md)** — Week 4 channel + customer deep dive
-7. **[Revenue Data Intake](docs/strategy/revenue-data-intake.md)** — What to export/share for analysis
-7. **[Monthly Scorecard (2026)](docs/strategy/monthly-scorecard-2026.csv)** — Filled Square baseline + open online/margin fields
-8. **[Monthly Scorecard Template](docs/strategy/monthly-scorecard-template.csv)** — Blank KPI tracker
-9. **[Raw revenue exports](data/revenue/)** — Square transactions/customers + Stripe customers
+8. **[Product Margin Analysis](docs/strategy/product-margin-analysis.md)** — Weekly COGS allocation model; predicted margins by SKU
+9. **[Revenue, Customer & AOV Analysis](docs/strategy/revenue-customer-aov-analysis.md)** — Week 4 channel + customer deep dive
+10. **[Revenue Data Intake](docs/strategy/revenue-data-intake.md)** — What to export/share for analysis
+11. **[Benchmark Comparison](docs/strategy/benchmark-comparison.csv)** — Actuals vs. Alameda targets side-by-side
+12. **[Monthly Scorecard (2023–2026)](docs/strategy/monthly-scorecard-2023-2026.csv)** — Bank P&L metrics by month
+13. **[Monthly Scorecard (2026)](docs/strategy/monthly-scorecard-2026.csv)** — Filled Square baseline + open online/margin fields
+14. **[Monthly Scorecard Template](docs/strategy/monthly-scorecard-template.csv)** — Blank KPI tracker
+15. **[Raw revenue exports](data/revenue/)** — Square transactions/customers + Stripe customers
 
 ### Website Optimization (detail)
 1. **[Week 1 Implementation Guide](docs/week-1-implementation-guide.md)** — Squarespace task detail + live site status
