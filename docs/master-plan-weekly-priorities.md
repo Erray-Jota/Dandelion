@@ -199,8 +199,8 @@ Track monthly via [2026 scorecard](strategy/monthly-scorecard-2026.csv) ([templa
 
 | Task | Impact | Time |
 |------|--------|------|
-| **Revenue Analyst review** — AOV, channel mix, seasonality | P0 for strategy | 2 hrs |
-| Complete [monthly scorecard](strategy/monthly-scorecard-template.csv) | Tracking | 1 hr |
+| **Revenue Analyst review** — AOV, channel mix, seasonality | ✅ [Done](strategy/revenue-customer-aov-analysis.md) | — |
+| Complete [monthly scorecard](strategy/monthly-scorecard-2026.csv) | ✅ 2026 YTD filled with GP% | — |
 | Compare actuals vs. [benchmarks](strategy/industry-benchmarks.md) | Prioritization | 1 hr |
 | **Choose 2 focus metrics** for next 8 weeks | Focus | 30 min |
 
@@ -215,14 +215,15 @@ Track monthly via [2026 scorecard](strategy/monthly-scorecard-2026.csv) ([templa
 
 | Task | Impact | Time |
 |------|--------|------|
-| Recost SKUs 6–10 | P1 | 2 hrs |
-| Flag any SKU below 60% margin | Action list | 30 min |
+| Recost top 5 SKUs | P1 — margin | 2 hrs | ✅ Predicted margins → [product-margin-analysis](strategy/product-margin-analysis.md) |
+| Flag any SKU below 60% margin | Action list | 30 min | ✅ All heroes flagged below 38%; Touch of Honey worst at ~30% |
 
 **Week 4 success criteria:**
-- [ ] Scorecard filled with real baseline
-- [ ] 90-day targets written (2 metrics)
+- [x] Scorecard filled with real baseline (+ gross margin %)
+- [x] Revenue / customer / AOV analysis complete
+- [ ] 90-day targets written (2 metrics) — see analysis doc §5
 - [ ] Week 1 website QA complete
-- [ ] Margin issues list created
+- [x] Margin issues list created → [product-margin-analysis](strategy/product-margin-analysis.md) (all 9 heroes below 38% full-COGS GP)
 
 **Est. revenue impact:** Indirect — prevents working on wrong levers; margin fixes often **$6–15K/year**.
 

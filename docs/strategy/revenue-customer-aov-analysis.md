@@ -252,7 +252,7 @@ Retention: SS email list → occasion reminders → sub offer
 7. Darling  
 8. Deep in the Woods  
 
-These 8 = **~89%** of 2026 online product revenue. Recipe-level COGS on these alone would clarify whether the 60% GP target is realistic per SKU.
+These 8 = **~89%** of 2026 online product revenue. **Predicted margins** (weekly COGS allocation): see [Product Margin Analysis](product-margin-analysis.md) — heroes average **~32% GP** (full COGS) / **~38%** (flowers-only).
 
 ---
 

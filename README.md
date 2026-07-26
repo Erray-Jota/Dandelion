@@ -17,7 +17,8 @@ Implementation workspace for [dandelionflowershop.com](https://www.dandelionflow
 3. **[Physical vs. Digital Strategy Map](docs/strategy/physical-vs-digital-strategy.md)** — Which tactics need outbound effort vs. digital marketing
 4. **[AI Agents for Revenue Growth](docs/strategy/ai-agents-for-revenue.md)** — Agent concepts mapped to AOV, margin, and repeat-rate targets
 5. **[Revenue Baseline 2026 YTD](docs/strategy/revenue-baseline-2026-ytd.md)** — Channel dashboard from Square + Squarespace + Stripe exports
-6. **[Revenue, Customer & AOV Analysis](docs/strategy/revenue-customer-aov-analysis.md)** — Week 4 analysis with COGS/margin from accounts
+6. **[Product Margin Analysis](docs/strategy/product-margin-analysis.md)** — Weekly COGS allocation model; predicted margins by SKU
+7. **[Revenue, Customer & AOV Analysis](docs/strategy/revenue-customer-aov-analysis.md)** — Week 4 analysis with COGS/margin from accounts
 7. **[Revenue Data Intake](docs/strategy/revenue-data-intake.md)** — What to export/share for analysis
 7. **[Monthly Scorecard (2026)](docs/strategy/monthly-scorecard-2026.csv)** — Filled Square baseline + open online/margin fields
 8. **[Monthly Scorecard Template](docs/strategy/monthly-scorecard-template.csv)** — Blank KPI tracker
