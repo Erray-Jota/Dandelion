@@ -1,95 +1,111 @@
 # Weekly Execution Checklist
 
 Quick checkbox version of [master-plan-weekly-priorities.md](../master-plan-weekly-priorities.md).  
+**Revised:** July 26, 2026 (after [consolidated analysis](../dandelion-consolidated-analysis.md))  
 **Current week:** _____ · **Date:** _____
+
+**Focus metrics:** POS median AOV $49 → $75 · GP% 31.5% → 38%
 
 ---
 
-## Week 1 — Stop Revenue Leaks
-- [ ] Remove homepage popup
-- [ ] Delete duplicate products ([list](../product-cleanup.csv))
-- [ ] Gift message field at checkout
-- [ ] Occasion date field at checkout
-- [ ] Verify pickup + delivery settings
-- [ ] HOW TO ORDER on all products
-- [ ] Export + upload 12-mo revenue data
-- [ ] Test delivery + pickup orders
+## Week 1 — Stop Revenue Leaks 🟡 Partial
+- [ ] Remove homepage popup → **Week 8**
+- [ ] Delete duplicate products ([list](../product-cleanup.csv)) → **Week 8**
+- [ ] Gift message field at checkout → **Week 8**
+- [ ] Occasion date field at checkout → **Week 8**
+- [ ] Verify pickup + delivery settings → **Week 8**
+- [x] HOW TO ORDER on all products
+- [x] Export + upload 12-mo revenue data
+- [ ] Test delivery + pickup orders → **Week 8**
 
-## Week 2 — Raise Order Value
-- [ ] Card upsell at checkout ($6.50)
+## Week 2 — Raise Online Order Value 🟡 Partial
+- [ ] Card upsell at checkout ($6.50) → **Week 8**
 - [ ] Premium anchors on shop page ($180–310 visible)
-- [ ] Homepage + Shop SEO titles
-- [ ] Single homepage H1 (remove marquees)
-- [ ] Fix subscription 12-month typo
-- [ ] Recost top 5 SKUs
-- [ ] Post-delivery email (thank-you + review)
+- [ ] Homepage + Shop SEO titles → **Week 8**
+- [ ] Single homepage H1 (remove marquees) → **Week 8**
+- [ ] Fix subscription 12-month typo → **Week 8**
+- [x] Predicted margins for top 9 heroes → [product-margin-analysis](../strategy/product-margin-analysis.md)
+- [ ] Post-delivery email (thank-you + review) → **Week 7**
 
-## Week 3 — Capture & Retain
-- [ ] Subscription CTA on homepage
-- [ ] Memorial checkout fields (date/time/location)
-- [ ] Wedding + memorial inquiry CTAs
+## Week 3 — Capture & Retain ⬜ Open
+- [ ] Subscription CTA on homepage → **Week 7**
+- [ ] Memorial checkout fields (date/time/location) → **Week 7**
+- [ ] Wedding + memorial inquiry CTAs → **Week 9**
 - [ ] Google Business Profile updated
-- [ ] Subscription email to past buyers
-- [ ] Occasion reminder templates drafted
+- [ ] Subscription email to past buyers → **Week 7**
+- [ ] Occasion reminder templates drafted → **Week 7**
 
-## Week 4 — Measure & Recost
-- [ ] Revenue analysis complete
-- [ ] Monthly scorecard baseline filled
-- [ ] Compare to benchmarks
-- [ ] Pick 2 focus metrics for next 8 weeks
+## Week 4 — Measure & Recost ✅ Analysis done
+- [x] Consolidated business analysis complete
+- [x] Monthly scorecard baseline filled
+- [x] Compare to benchmarks
+- [x] Pick 2 focus metrics: POS AOV + GP%
+- [ ] Week 1 QA checklist complete → **Week 8**
+- [ ] Recipe costs for top 8 heroes → **Week 6**
+
+## Week 5 — Fix POS AOV ⬜ Next
+- [ ] Map POS SKUs to online hero names
+- [ ] Delete price-named SKUs ("20", "45 bouquet")
+- [ ] Staff upsell script trained
+- [ ] POS median AOV ≥ $55 (checkpoint)
+- [ ] Premium anchors on shop page
+
+## Week 6 — Margin Discipline ⬜
+- [ ] Recipe-cost top 8 heroes (actual vs predicted)
+- [ ] Raise Touch of Honey to $80–85
+- [ ] Weekly stem-buy budget worksheet in use
+- [ ] Flag SKUs below 38% GP
+- [ ] Reduce Jul/Aug stem orders to match volume
+- [ ] Update Commerce prices to match recost
+- [ ] Monthly GP% ≥ 25%
+
+## Week 7 — Retention + Identity Capture ⬜
+- [ ] Require email/phone on every Square payment
+- [ ] Win-back email to occasional buyers (2,745)
+- [ ] Sub offer to 54 past sub-buyers
+- [ ] Merge SS + Stripe email lists
+- [ ] Post-delivery email firing
+- [ ] Occasion reminder system live
+- [ ] +5 new active subscriptions
+
+## Week 8 — Protect Online Recovery ⬜
+- [ ] Remove homepage popup
+- [ ] Delete duplicate products
+- [ ] Card upsell at checkout (default-on)
+- [ ] Gift message + occasion fields live
+- [ ] Test delivery + pickup orders
 - [ ] Week 1 QA checklist complete
-- [ ] Recost SKUs 6–10
+- [ ] Card attach ≥ 10%
 
-## Week 5 — Wedding Pipeline
-- [ ] Wedding inquiry form live
-- [ ] Portfolio refreshed
-- [ ] Wedding SEO title/meta
-- [ ] Auto-acknowledge inquiry emails
-- [ ] 5 venue/planner outreaches
-
-## Week 6 — Sympathy Channel
+## Week 9 — Sympathy Channel ⬜
 - [ ] Memorial SEO updated
 - [ ] Sympathy landing copy
 - [ ] Sympathy intake alerts working
 - [ ] 5 funeral homes identified
 - [ ] 2 funeral director contacts made
 
-## Week 7 — Retention Automation
-- [ ] Occasion reminder system live
-- [ ] Historical occasions imported
-- [ ] First reminder campaign sent
-- [ ] Win-back email (6-mo inactive)
-- [ ] Reminder opt-in at checkout
+## Week 10 — Wedding Pipeline ⬜
+- [ ] Wedding inquiry form live
+- [ ] Portfolio refreshed
+- [ ] Wedding SEO title/meta
+- [ ] Auto-acknowledge inquiry emails
+- [ ] 5 venue/planner outreaches
+- [ ] Wedding revenue tagged
 
-## Week 8 — Local Acquisition
-- [ ] Oakland delivery landing page
-- [ ] Sympathy Alameda landing page
-- [ ] Memorial + Contact SEO
-- [ ] 4 Google Business posts scheduled
-- [ ] 10 review requests sent
-
-## Week 9 — Corporate Outbound
-- [ ] 20-prospect target list
+## Week 11 — Corporate + Holiday Prep ⬜
+- [ ] 20-prospect corporate target list
 - [ ] 10 corporate emails sent
 - [ ] 2 in-person visits
 - [ ] Office flowers web page
-
-## Week 10 — Margin Discipline
-- [ ] Wholesale invoices vs recipes
-- [ ] Prices updated (SKUs < 58% margin)
-- [ ] Delivery zone minimums set
-- [ ] Wire order audit (if applicable)
-
-## Week 11 — Holiday Prep
 - [ ] Holiday / gift guide page
-- [ ] Valentine's premium tier merchandised
 - [ ] Order cutoff dates on homepage
-- [ ] Corporate gifting campaign
-- [ ] Subscription gift campaign
+- [ ] Corporate + sub gift campaigns sent
 
-## Week 12 — Review & Replan
+## Week 12 — Review & Replan ⬜
 - [ ] 12-week scorecard complete
-- [ ] Compare to Week 4 baseline
+- [ ] Compare to Week 4 consolidated baseline
+- [ ] POS AOV: $49 → $___ (target $75)
+- [ ] GP%: 31.5% → $___ (target 38%)
 - [ ] Document wins + misses
 - [ ] Set Q1 2027 priorities (3 max)
 
