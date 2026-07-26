@@ -1,5 +1,7 @@
 # Revenue, Customer & AOV Analysis — Week 4 Deliverable
 
+> **Superseded:** This report has been merged into the [Consolidated Business Analysis](../dandelion-consolidated-analysis.md). Use that document for the single source of truth.
+
 **Prepared:** July 26, 2026  
 **Data:** Square POS (2026 YTD) · Squarespace orders (2015–2026) · Stripe payments · Bank/accounts COGS ([`forensic-classification-review.csv`](../forensic-classification-review.csv))  
 **Companion:** [Revenue Baseline 2026 YTD](revenue-baseline-2026-ytd.md) · [Monthly Scorecard 2026](monthly-scorecard-2026.csv)
