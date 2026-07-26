@@ -1,22 +1,36 @@
-# Revenue Baseline — 2026 YTD (from Square + Stripe exports)
+# Revenue Baseline — 2026 YTD (Square + Squarespace + Stripe)
 
-**Analyzed:** July 26, 2026  
-**Sources:** Square transactions (Jan 6–Jul 25, 2026), Square customers (lifetime), Stripe customers (lifetime)  
+**Analyzed:** July 26, 2026 (updated with Squarespace orders)  
+**Sources:** Square transactions (Jan 6–Jul 25, 2026), Square customers (lifetime), Squarespace orders (May 2015–Jul 24, 2026), Stripe customers (lifetime)  
 **Raw files:** [`data/revenue/`](../../data/revenue/)
 
 ---
 
 ## TL;DR
 
-1. **In-store (Square) is ~$112k net sales YTD** with a **median AOV of ~$49** — well below the plan’s ~$80–90 baseline estimate and the $95 90-day target.
-2. **Online (Stripe/Squarespace) runs a much healthier ticket** — median ~$103 per payment — but we only have customer lifetime totals, not a clean monthly online revenue series yet.
-3. **Biggest unlocks:** raise everyday POS AOV, capture emails/phones at checkout (only **55%** of Square txs have a customer ID; **~8%** of all Square customers have email), and treat Valentine’s + Mother’s Day as the revenue engine they already are.
+1. **Two-channel business:** Square in-store ~**$112k** net YTD + Squarespace online ~**$90k** paid totals YTD ≈ **~$185–201k** combined depending on tax/shipping definition.
+2. **AOV gap is the story:** Square median **$49** vs Squarespace median **$121** (total) / **$95** (product subtotal). Online already hits the plan’s $95 target; the counter does not.
+3. **Online is rebounding in 2026** — YTD through Jul 24 is **+$26k / +41%** vs 2025 YTD — but full-year online peaked in 2021 ($150k) and drifted down through 2025.
+4. **Card attach online is ~0.6%** despite a $6.50 add-on SKU. Hero catalog is concentrated: top 5 arrangements = **68%** of 2026 online product revenue.
+5. **Biggest unlocks:** raise POS AOV to match online ladder, default the card add-on, capture emails at Square, grow subscriptions off the holiday + multi-buyer base.
 
 ---
 
 ## 1. Revenue dashboard summary
 
-### Square POS + invoices (transaction-level, solid)
+### Combined 2026 YTD (through late July)
+
+| Channel | Metric | Amount | Orders | AOV |
+|---------|--------|--------|--------|-----|
+| Square POS + invoices | Net sales | **$111,578** | 1,680 payments | mean $66 / median **$49** |
+| Squarespace (Stripe) | Order total (incl. tax + shipping) | **$89,835** | 678 paid | mean $133 / median **$121** |
+| Squarespace | Product subtotal (ex tax/ship) | **$73,212** | 678 | mean $108 / median **$95** |
+| **Combined (approx.)** | Square net + SS subtotal | **~$185k** | — | — |
+| **Combined (cash-ish)** | Square net + SS total | **~$201k** | — | — |
+
+Definitions differ (Square net sales vs Squarespace checkout total). Use **Square net + SS subtotal (~$185k)** for product-mix comparisons; use cash-ish for “money in the door.”
+
+### Square POS + invoices
 
 | Month | Payments | Net sales | AOV (net) | POS net | Invoice net |
 |-------|----------|-----------|-----------|---------|-------------|
@@ -27,211 +41,238 @@
 | 2026-05 | 372 (+2 refunds) | $27,529 | $74.00 | $26,418 | $1,111 |
 | 2026-06 | 157 | $9,292 | $59.18 | $8,896 | $396 |
 | 2026-07 (through 25th) | 162 | $9,280 | $57.28 | $8,966 | $313 |
-| **YTD** | **1,680 payments** (+5 refunds) | **$111,578** | **$66.22 mean / $48.87 median** | **$103,823 (93%)** | **$7,754 (7%)** |
+| **YTD** | **1,680** (+5 refunds) | **$111,578** | **$66.22 / $48.87 med** | **93%** | **7%** |
 
-Derived monthly file: [`square-monthly-summary-2026-ytd.csv`](../../data/revenue/square-monthly-summary-2026-ytd.csv)
+Derived: [`square-monthly-summary-2026-ytd.csv`](../../data/revenue/square-monthly-summary-2026-ytd.csv)
 
-**Seasonality (clear):**
+**Seasonality (Square):** Valentine’s month 21% of YTD; Mother’s Day month ~25%. Closed Mondays. Friday strongest weekday. Card fees ~3% of collected.
 
-| Window | Net sales | Share of YTD |
-|--------|-----------|--------------|
-| Valentine’s month (Feb) | $23,844 | 21% |
-| Valentine’s week (Feb 7–14) | $13,237 | 12% |
-| Mother’s Day month (May) | ~$27.9k | 25% |
-| Mother’s week (May 4–10) | $17,765 | 16% |
-| Soft months (Jun + Jul partial) | ~$18.6k combined | — |
+### Squarespace online (order-level — primary online source)
 
-Top days are almost entirely holiday peaks (May 9 $6.5k, Feb 13 $5.5k, May 10 $4.5k, Feb 14 $4.3k).
+All paid orders process via **Stripe**. Derived rollups: [`squarespace-monthly-summary.csv`](../../data/revenue/squarespace-monthly-summary.csv) · [`squarespace-yearly-summary.csv`](../../data/revenue/squarespace-yearly-summary.csv)
 
-**Operating pattern:** Tue–Sat volume; **Monday = $0** (closed). Friday is the strongest weekday (~$30.5k YTD).
+#### 2026 monthly
 
-**Fees:** ~**3.0%** of total collected (~$3.5k YTD) — normal card processing, not a strategic leak.
+| Month | Paid orders | Total | Subtotal | Shipping | AOV (total) |
+|-------|-------------|-------|----------|----------|-------------|
+| 2026-01 | 79 | $9,901 | $7,964 | $1,100 | $125 |
+| 2026-02 | 172 | $22,116 | $18,313 | $1,868 | $129 |
+| 2026-03 | 83 | $12,133 | $9,864 | $1,216 | $146 |
+| 2026-04 | 78 | $10,152 | $8,087 | $1,196 | $130 |
+| 2026-05 | 168 | $22,521 | $18,496 | $2,044 | $134 |
+| 2026-06 | 45 | $5,754 | $4,599 | $668 | $128 |
+| 2026-07 (through 24th) | 53 | $7,258 | $5,891 | $744 | $137 |
+| **YTD** | **678** | **$89,835** | **$73,212** | **$8,836** | **$133** |
 
-**Discounts & tips in export:** both **$0** across all rows — either unused or not flowing into this report. Worth confirming in Square settings.
+#### Annual online history (paid totals)
 
-### Stripe / online (customer-level only — incomplete for monthly revenue)
+| Year | Orders | Total | AOV |
+|------|--------|-------|-----|
+| 2015 (partial) | 191 | $16,670 | $87 |
+| 2016 | 372 | $32,827 | $88 |
+| 2017 | 381 | $35,618 | $93 |
+| 2018 | 418 | $41,626 | $100 |
+| 2019 | 509 | $50,315 | $99 |
+| **2020** | **1,392** | **$127,431** | $92 |
+| **2021 (peak)** | **1,525** | **$150,199** | $98 |
+| 2022 | 1,214 | $136,357 | $112 |
+| 2023 | 984 | $110,123 | $112 |
+| 2024 | 853 | $107,984 | $127 |
+| 2025 | 829 | $106,459 | $128 |
+| 2026 YTD (to Jul 24) | 678 | $89,835 | $133 |
+
+**Same-window YTD comparison (through Jul 24):**
+
+| Year | Orders | Total | vs prior |
+|------|--------|-------|----------|
+| 2024 | 596 | $72,991 | — |
+| 2025 | 512 | $63,586 | −13% |
+| **2026** | **678** | **$89,835** | **+41% vs 2025 YTD** |
+
+So 2026 online is **ahead of last two years’ YTD**, even though full-year 2024–2025 settled near ~$106–108k after the 2021 peak. AOV has climbed steadily ($87 → $133) while order count never recovered to 2020–21 levels.
+
+#### Fulfillment mix 2026
+
+| Method (normalized) | Orders | Total | Share |
+|---------------------|--------|-------|-------|
+| Alameda / Bay Farm delivery | 486 | $67,254 | 75% |
+| “Dandelion Flowers & Gifts” (blank ship city — treat as **pickup**) | 139 | $14,996 | 17% |
+| East Bay delivery (Oakland/Berkeley/etc.) | 53 | $7,586 | 8% |
+
+Hyperlocal: **94501 + 94502** dominate ship zips; Alameda is the core delivery market.
+
+### Stripe customers (supporting identity file)
 
 | Metric | Value |
 |--------|-------|
 | Customers | 4,202 (all with email) |
-| Lifetime spend (all-time) | **$720,801** |
-| Lifetime payments | 6,395 |
-| Refunded volume | $10,044 (~1.4%) |
-| Dispute losses | $114 |
-| Median spend / payment (proxy AOV) | **$102.60** |
-| Mean spend / payment | $111.28 |
-| One-time payers | 73.5% |
-| Multi-payment customers | 20.9% (avg 3.8 payments, $441 lifetime) |
-| New Stripe customers created in 2026 YTD | 362 · $50,462 lifetime spend on those profiles |
+| Lifetime spend on file | $720,801 |
+| Median spend/payment | $102.60 |
 
-**Important caveat:** Stripe export is **lifetime spend per customer**, not charges by month. The ~$50k figure for 2026-created customers is a **lower bound** on 2026 online revenue (excludes returning buyers created in prior years). Need a Stripe **Payments** or **Balance transactions** export for a true online monthly series.
-
-### Combined picture (directional)
-
-| Channel | What we can say today |
-|---------|----------------------|
-| **In-store Square POS** | Dominant tracked channel; ~$104k net YTD; low AOV |
-| **Square Invoices** | $7.8k YTD (47 txs); mean AOV **$165** — custom / delivery / larger orders |
-| **Online (Stripe)** | Higher AOV (~$100+); email-rich; monthly $ unknown until payments export |
-| **Wire / FTD** | Not in these files |
-| **Subscriptions / weddings as tagged revenue** | Not separable cleanly from item names |
-
-Simple Square run-rate (~$204k/year if every day matched YTD average) **understates** a full year because Jul is partial and Q4 holidays are ahead — but it confirms the shop is a **low-six-figures Square book** plus a meaningful online book on top.
+Squarespace paid totals all-time (~**$1.005M**) exceed Stripe customer lifetime spend ($721k) — expected if some checkouts never created a Stripe Customer object, or spend fields omit tax/shipping. **Prefer Squarespace orders for online revenue; prefer Stripe/Squarespace emails for CRM.**
 
 ---
 
 ## 2. Channel & product mix
 
-### Tender / source
+### Channel split 2026 YTD
 
-- **Card:** ~99.7% of collected value (mostly **tapped**)
-- **Cash App:** ~$216 · **Cash:** ~$72
-- **Source:** Point of Sale 93% / Invoices 7%
-- **Channel / dining option fields:** blank on every row — no delivery-vs-pickup flag in this export
+```
+Square net sales     ████████████████████░░░░  ~55–60%  (in-store / invoice)
+Squarespace subtotal ███████████████░░░░░░░░░  ~40–45%  (online)
+```
 
-### Product signals (from Square line descriptions — messy naming)
+Online is not a side channel — it’s nearly half of measurable product revenue.
 
-Item names are inconsistent (`20`, `Item`, `45 bouquet`, `Bouquet`, `Touch of honey`). Equal-split revenue heuristic:
+### Squarespace heroes (clean SKUs)
 
-| Rough category | ~Share of net |
-|----------------|---------------|
-| Everyday arrangements | ~70% |
-| Other / unclear SKUs | ~12% |
-| Delivery fees | ~7% |
-| Custom bouquets | ~6% |
-| Gift certificates | ~2% |
-| Wedding/event (incl. boutonnières) | &lt;1% tagged |
-| Sympathy (named) | &lt;1% tagged |
+**2026 line revenue leaders:**
 
-**Implication:** Wedding and sympathy revenue is almost certainly **under-tagged** in POS (lives inside “Custom bouquet” / invoices). Don’t treat the &lt;1% figures as true channel size.
+| Product | Qty | Line revenue |
+|---------|-----|--------------|
+| To the Moon and Back | 128 | $12,160 |
+| Love Poem | 135 | $11,475 |
+| Touch of Honey | 153 | $9,945 |
+| TLC | 65 | $9,100 |
+| XoXo | 68 | $7,480 |
+| The Sympathy | 51 | $5,618 |
+| Darling | 29 | $5,220 |
+| Deep in the Woods | 37 | $4,440 |
 
-### Named bestsellers (noisy but useful)
+Top **5 = 68.5%** of 2026 online product revenue; top **8 = 89%**. Catalog is a tight hero set — protect and upsell these, don’t expand endlessly.
 
-High volume: generic **Bouquet**, price-named tiers (**20**, **45 bouquet**, **100 bouquet**, **50.00 Bouquet**), **Custom bouquet**, **Alameda delivery**, then named designs (**Touch of honey**, **Honey**, **Moon**, **Love / Love Poem**).
+**All-time online heroes** are the same names (Moon, Love Poem, Touch of Honey, XoXo, TLC, Woods, Darling, Sympathy) plus **Monthly Flower Subscription** ($37.5k lifetime / 78 orders) and orchids/succulents.
+
+**Card add-on:** “The Finishing Touch - Add a card!” — **4 orders in 2026 (0.6% attach)**. This is free money left on the table vs the 25% target.
+
+**Subscriptions 2026:** 4 orders (~$2.7k) — tiny vs capacity.  
+**Sympathy 2026 (named):** 50 orders / ~$6.9k online (material).  
+**Wedding-tagged online:** ~0 (weddings likely offline / invoice / untagged).  
+**Duplicate SKU proof:** `Touch of Honey (Copy)` sold once for $65 — delete it.
+
+### Square POS product signals (messy naming)
+
+Price-named SKUs (`20`, `45 bouquet`, `Item`) dominate. Everyday arrangements ~70% of equal-split heuristic; wedding/sympathy under-tagged. POS naming prevents recipe costing and hides the online hero ladder from counter staff.
 
 ---
 
 ## 3. Customer & retention health
 
-### Square customers (lifetime database)
+### Squarespace (best online CRM)
 
 | Metric | Value |
 |--------|-------|
-| Profiles | 17,526 |
-| With lifetime spend | 17,411 · **$2.28M** lifetime |
-| Median lifetime spend | $66.88 |
-| Mean lifetime spend | $131 |
-| Repeat buyers (2+ txs ever) | **31%** of buyers |
-| One-time buyers | 69% |
-| Active last visit in 2026 | **686** |
-| **With email** | **1,316 (7.5%)** |
-| With phone | 169 (1.0%) |
-| Email subscribed | **2** (essentially unused) |
-| Instant profiles (card-only) | 15,131 (86%) |
+| Unique payer emails (all-time) | **5,986** |
+| Repeat email rate (2+ orders) | **20.9%** |
+| Revenue from repeat emails | **$517k** (~51% of all-time paid totals) |
+| 2026 orders from pre-2026 emails | **43%** |
+| 2026 new-email orders | **57%** |
 
-**2026 Square payment attachment:** 55% of transactions have a Customer ID; only 33% have a name. **~40% of YTD net sales is anonymous.**
+Online retention is healthier than raw “21% repeat” suggests — nearly half of 2026 orders are from known emails, and repeat buyers drive half of lifetime online revenue.
 
-### Stripe customers
+### Square customers
 
-- **100% email coverage** — this is the usable marketing list.
-- Overlap with Square emails: only **129** people in both systems.
-- Combined unique emails: **~5,350**.
+| Metric | Value |
+|--------|-------|
+| Profiles | 17,526 · **$2.28M** lifetime |
+| Repeat (2+ txs ever) | **31%** |
+| With email | **7.5%** |
+| Email subscribed | **2** |
+| 2026 txs with customer ID | **55%** · ~**40% of YTD $ anonymous** |
 
-### Concentration risk
+### Identity universe
 
-- Top Square YTD named buyer (David Wendling) ~$2.7k / 22 visits — healthy regular, not dangerous concentration.
-- **Anonymous + one-time holiday buyers** are the real concentration risk: peaks depend on walk-in/holiday traffic that doesn’t re-enter a CRM.
+- Squarespace emails: ~5,986  
+- Stripe customers: 4,202  
+- Square emails: 1,316  
+- Prior Square∩Stripe overlap: 129  
+
+**Actionable list ≈ Squarespace order emails first** (richest, purchase-verified), then merge Square.
 
 ---
 
 ## 4. Baseline vs. plan targets
 
-| Metric | Plan baseline (estimate) | **Measured now** | 90-day target |
-|--------|--------------------------|------------------|---------------|
-| Everyday AOV | ~$80–90 | **Square median $49 / mean $66**; Stripe proxy **~$103** | $95+ |
-| Repeat customer rate | Unknown | Square lifetime **31%** (2+ txs); Stripe multi-pay **21%** | 35%+ |
-| Gross margin | Unknown | **Still unknown** (no COGS) | 60%+ |
-| Active subscriptions | Unknown | **Still unknown** | +10% |
-| Online vs in-store mix | Unknown | Square solid; Stripe monthly incomplete | Track |
+| Metric | Prior estimate | **Measured now** | 90-day target |
+|--------|----------------|------------------|---------------|
+| Everyday AOV | ~$80–90 | Square med **$49** / mean $66; **SS med total $121 / subtotal $95** | $95+ blend; **POS median → $75+** |
+| Repeat rate | Unknown | Square **31%**; SS email **21%** (but 43% of 2026 SS orders from known emails) | 35%+ |
+| Online mix | Unknown | **~40–45%** of measurable product $ | Track monthly |
+| Card attach | ~0% | **0.6% online**; unknown in-store | **25%+** |
+| Active subscriptions | Unknown | **~4 SS sub orders in 2026**; 78 lifetime | +10% |
+| Gross margin | Unknown | Still unknown (no COGS) | 60%+ |
+| Combined YTD | Unknown | **~$185k** product-ish / **~$201k** cash-ish | — |
 
-**Diagnosis from the four-lever framework:** primary problem is **AOV on everyday POS tickets**, second is **retention identity** (no email/phone at counter), third is **measurement gaps** (online monthly, subs, weddings, margin).
+**Diagnosis:** Online AOV and hero assortment are working. The gap is **in-store AOV + identity capture + add-on attach + subscription reactivation**. Post-2021 online order-count decline is the acquisition risk; 2026 YTD recovery is encouraging — protect it with CRO (popup removal, duplicate SKU cleanup) already in Week 1.
 
 ---
 
 ## 5. Prioritized growth levers (numeric)
 
-### Lever A — Raise POS AOV from ~$49 median → $75–85 (P1)
+### Lever A — Raise POS AOV toward the online ladder (P1)
 
-**Why:** 40% of positive Square tickets are under $40; p75 is only ~$87. Online already clears $100 — in-store under-asks.
-
-**Moves:**
-
-1. Enforce a visible **good / better / best** ladder at the counter ($65 / $95 / $145+), not price-named SKUs like “20” and “45 bouquet”.
-2. Default attach: card ($6.50) + vase/upgrade script; target **25%** card attach.
-3. Bundle delivery into mid/high tiers so Alameda delivery isn’t a separate friction ask.
-
-**Math sketch:** If half of the ~1,000 sub-$60 tickets lift by **$20**, that’s **~$10k** on the same traffic over a similar YTD window — before holiday peaks.
-
-### Lever B — Capture identity on every paid order (P2)
-
-**Why:** 40% of Square sales are anonymous; email list on Square is nearly unusable (2 subscribed). Stripe already proves online buyers will share email.
+**Why:** Same shop, same flowers: online median subtotal **$95** vs counter median **$49**.
 
 **Moves:**
 
-1. Square checkout: require email **or** phone for all keyed/tapped payments (staff prompt + receipt SMS/email).
-2. Sync Stripe + Square emails into one list (Mailchimp/Klaviyo); start with **~5,350** unique addresses.
-3. Post-purchase: occasion capture (birthday/anniversary) — birthdays in Square today: **0**.
+1. Put the **online hero ladder** on the counter (Touch of Honey / Love Poem / Moon / TLC / XoXo) with prices matching the site.
+2. Kill price-named POS SKUs (`20`, `45 bouquet`) or map them to named designs.
+3. Target: POS median **$75** within 90 days.
 
-**Target (90 days):** ≥85% of Square txs with email or phone; ≥500 reachable 2026 buyers.
+**Math:** Lifting half of ~1,000 sub-$60 Square tickets by $20 ≈ **+$10k** on similar YTD traffic.
 
-### Lever C — Build a holiday → everyday bridge (P2)
+### Lever B — Default the $6.50 card (and other add-ons) (P1)
 
-**Why:** Feb + May alone are ~46% of Square YTD. Without follow-up, those buyers vanish until the next holiday.
+**Why:** 0.6% online attach on an existing SKU. At 25% of 678 YTD online orders → ~170 cards × $6.50 ≈ **$1.1k YTD** just online; annualize and add POS for **$3–5k+/year** with almost no creative work.
+
+**Moves:** Checkout checkbox default-on (or stronger UX); POS verbal prompt every wrapped order.
+
+### Lever C — Capture Square identity + holiday → everyday bridge (P2)
+
+**Why:** 40% of Square $ is anonymous; Feb+May dominate both channels.
 
 **Moves:**
 
-1. After Valentine’s / Mother’s Day peaks: 7-day “thank you + next occasion” email/SMS to captured buyers.
-2. Offer a **second-arrangement** or subscription trial to holiday buyers only.
-3. Protect peak staffing/inventory — top single days already hit $4.5–6.5k.
+1. Require email or phone on Square payments.  
+2. Merge SS + Square emails; post-holiday occasion follow-up.  
+3. Offer **Monthly Flower Subscription** to multi-buyers and holiday buyers (only 4 sub orders YTD).
 
-**Target:** Convert **10%** of identifiable holiday buyers into a second purchase within 90 days.
+**Target:** ≥85% Square txs with contact; 10% of identifiable holiday buyers repurchase in 90 days; **+10 subscription orders** in 90 days.
 
 ---
 
-## 6. Margin notes (limited by data)
+## 6. Margin notes
 
-- No COGS/wholesale file → **gross margin still unknown**.
-- Processing fees (~3%) are fine; don’t optimize there first.
-- Invoice AOV ($165 mean) and custom work look like the margin-friendly workstream — tag them (wedding / sympathy / corporate) so they can be priced and staffed deliberately.
-- Catalog cleanup still matters: duplicate/ambiguous POS names hide true hero products and make recipe costing impossible.
-
-**Next data ask for margin:** monthly wholesale stem spend + top 10 recipe costs.
+- Still no COGS file.  
+- Online shipping collected YTD: **$8,836** — compare to actual delivery labor/fuel.  
+- Hero concentration helps costing: recost the top 8 online SKUs first.  
+- Delete `Touch of Honey (Copy)` (already sold once).  
+- Sympathy is a real online line (~$7k YTD) — don’t underprice it.
 
 ---
 
-## 7. 90-day action plan (data-backed)
+## 7. 90-day action plan (updated)
 
 | Window | Focus | Success metric |
 |--------|-------|----------------|
-| **Days 1–30** | Fix POS naming + price ladder; require email/phone at Square; export Stripe **payments**; fill scorecard monthly | Median POS ticket trending up; identity attach ≥70% |
-| **Days 31–60** | Card/add-on default; merge email lists; win-back to 2026 Square buyers who have email | Card attach ≥15%; first retention campaign sent |
-| **Days 61–90** | Occasion reminders live; subscription offer to multi-buyers; tag invoice types | Repeat rate among identified buyers ≥35%; scorecard complete for Q3 |
-
-Ties to master plan Weeks 2–4 (AOV, capture/retain, measure/recost).
+| **Days 1–30** | POS price ladder = online heroes; delete duplicate SKUs; require Square email/phone; card UX online | POS median ↑; card attach ≥10% online |
+| **Days 31–60** | Merge email lists; win-back to SS multi-buyers + 2026 holiday buyers; subscription offer | Card attach ≥20%; +5 new subs |
+| **Days 61–90** | Occasion reminders; East Bay delivery packaging; scorecard both channels monthly | POS median ≥$70; scorecard complete |
 
 ---
 
 ## 8. Data gaps still open
 
-| Gap | Why it matters | Ask |
-|-----|----------------|-----|
-| Stripe payments by date | True online monthly revenue & seasonality | Stripe → Payments export (2024–2026) |
-| Squarespace orders (if any beyond Stripe) | Confirm online = Stripe only | Commerce → Orders export |
-| Subscriptions | MRR / churn / LTV | Active sub count + plan prices |
-| Weddings | High-LTV pipeline | Annual events + average contract |
-| COGS | Margin % | Wholesale spend monthly or QuickBooks |
-| Delivery vs pickup | Ops cost | Enable dining/fulfillment fields or manual tag |
-| Wire orders | Fee drag | FTD/Teleflora statements if used |
+| Gap | Status | Ask |
+|-----|--------|-----|
+| Squarespace orders | ✅ Ingested (2015–2026) | — |
+| Online monthly revenue | ✅ From Squarespace | — |
+| Stripe payments export | Optional now (SS covers revenue) | Only if reconciling fees/disputes |
+| Subscriptions | Partial (78 lifetime SS orders) | Active subscriber count / churn |
+| Weddings | Still missing | Invoices / contracts |
+| COGS | ☐ | Wholesale monthly |
+| Wire / FTD | ☐ | Statements if used |
+| Square delivery vs pickup | ☐ | Still blank in Square export |
 
 ---
 
@@ -239,7 +280,8 @@ Ties to master plan Weeks 2–4 (AOV, capture/retain, measure/recost).
 
 | Provided | Status |
 |----------|--------|
-| Square transactions 2026 YTD | ✅ Ingested |
-| Square customers | ✅ Ingested |
-| Stripe customers | ✅ Ingested (lifetime only) |
-| Duplicate Square transactions export | ✅ Deduped (identical) |
+| Square transactions 2026 YTD | ✅ |
+| Square customers | ✅ |
+| Stripe customers | ✅ |
+| Squarespace orders May 2015–Jul 2026 | ✅ |
+| Duplicate Square transactions export | ✅ Deduped |

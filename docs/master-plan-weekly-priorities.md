@@ -30,15 +30,16 @@ Track monthly via [2026 scorecard](strategy/monthly-scorecard-2026.csv) ([templa
 
 | Metric | Baseline (measured Jul 2026) | 90-day target | 12-month target |
 |--------|------------------------------|---------------|-----------------|
-| Everyday AOV | Square median **$49** / mean **$66**; Stripe proxy **~$103** | **$95+** (blend; POS median → $75+) | **$110+** |
-| Repeat customer rate | Square lifetime **31%** (2+ txs); Stripe multi-pay **21%** | **35%+** | **40%+** |
+| Everyday AOV | Square median **$49** / mean **$66**; Squarespace median total **$121** / subtotal **$95** | **$95+** (blend; POS median → $75+) | **$110+** |
+| Repeat customer rate | Square **31%**; SS email **21%** (43% of 2026 SS orders from known emails) | **35%+** | **40%+** |
 | Gross margin | Still unknown (no COGS) | **60%+** | **62–68%** |
 | Homepage conversion | Popup blocking | Popup gone | +15–25% shop visits → orders |
-| Add-on attach (card) | ~0% (not in Square export) | **25%+** | **35%+** |
-| Active subscriptions | Still unknown | +10% growth | +20% YoY |
-| Wedding inquiries → close | Under-tagged in POS | Track baseline | +2 weddings/quarter |
-| Square YTD net sales | **$111.6k** (Jan 6–Jul 25) | — | — |
-| Email / phone capture | Square email on **7.5%** of profiles; **55%** txs with customer ID | ≥85% txs with email or phone | Full CRM hygiene |
+| Add-on attach (card) | **0.6%** online (4/678 SS orders) | **25%+** | **35%+** |
+| Active subscriptions | 4 SS sub orders in 2026 YTD (78 lifetime) | +10% growth | +20% YoY |
+| Wedding inquiries → close | Under-tagged / not in SS | Track baseline | +2 weddings/quarter |
+| Combined YTD (product-ish) | **~$185k** (Square net $112k + SS subtotal $73k) | — | — |
+| Online YTD vs 2025 | Squarespace **+41%** through Jul 24 | Protect recovery | Beat 2021 peak mix via AOV+repeat |
+| Email / phone capture | Square email **7.5%** of profiles; SS **~5,986** payer emails | ≥85% Square txs with email or phone | Full CRM hygiene |
 
 ---
 
@@ -49,7 +50,7 @@ Track monthly via [2026 scorecard](strategy/monthly-scorecard-2026.csv) ([templa
 | Sitemap loads | ✅ |
 | Product page "HOW TO ORDER" copy | ✅ |
 | Old checkout warning text removed | ✅ |
-| Revenue exports uploaded + baseline analysis | ✅ Square + Stripe → [baseline](strategy/revenue-baseline-2026-ytd.md) |
+| Revenue exports uploaded + baseline analysis | ✅ Square + Stripe + Squarespace orders → [baseline](strategy/revenue-baseline-2026-ytd.md) |
 
 ---
 
@@ -91,9 +92,9 @@ Track monthly via [2026 scorecard](strategy/monthly-scorecard-2026.csv) ([templa
 
 | Task | Impact | Time |
 |------|--------|------|
-| ~~Export last 12 months orders/revenue~~ | ✅ Square YTD + customers + Stripe customers ingested | Done |
+| ~~Export last 12 months orders/revenue~~ | ✅ Square + Squarespace (2015–2026) + Stripe customers | Done |
 | ~~Upload to repo or share in chat~~ | ✅ See [`data/revenue/`](../data/revenue/) + [baseline](strategy/revenue-baseline-2026-ytd.md) | Done |
-| **Still need:** Stripe payments export + COGS | Unlocks online monthly + margin % | 30 min |
+| **Still need:** COGS + active sub count + wedding tags | Unlocks margin % and high-LTV tracking | 30–60 min |
 | Run test order: delivery + pickup | P0 — verify flow | 30 min |
 
 ### AI / automation

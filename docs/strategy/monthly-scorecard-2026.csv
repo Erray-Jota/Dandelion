@@ -1,9 +1,9 @@
-Month,Total Revenue (Square Net),Order Count (Square Payments),AOV (Square Net Mean),Gross Margin %,Online Orders,Walk-in Orders,Phone Orders,Subscription Revenue,Subscription Count Active,Wedding Revenue,Wedding Events,Memorial Orders,Corporate Revenue,Wire Order Revenue,Wire Order Count,Add-on Attach Rate %,New Customers,Repeat Customer %,Notes
-2026-01,15435.83,218,70.81,,,,,,,,,,,,,,,"Square only; Stripe monthly unknown. Invoice net $3017. Customer ID attach 55%."
-2026-02,23843.50,334,71.39,,,,,,,,,,,,,,,"Valentine peak. Invoice net $819. Customer ID attach 52%."
-2026-03,13223.79,233,56.75,,,,,,,,,,,,,,,"1 refund. Invoice net $1404. Customer ID attach 56%."
-2026-04,12973.82,204,63.60,,,,,,,,,,,,,,,"2 refunds. Invoice net $694. Customer ID attach 57%."
-2026-05,27529.11,372,74.00,,,,,,,,,,,,,,,"Mother's Day peak. 2 refunds. Invoice net $1111. Customer ID attach 56%."
-2026-06,9291.91,157,59.18,,,,,,,,,,,,,,,"Soft month. Invoice net $396. Customer ID attach 54%."
-2026-07,9279.63,162,57.28,,,,,,,,,,,,,,,"Partial month through Jul 25. Invoice net $313. Customer ID attach 58%."
-YTD-2026,111577.59,1680,66.22,,,,,,,,,,,,,,,"Square median AOV $48.87. Stripe lifetime book $720k; 2026 new Stripe customers $50.5k (lower bound online). See revenue-baseline-2026-ytd.md"
+Month,Square Net Sales,Square Orders,Square AOV,Squarespace Total,Squarespace Orders,Squarespace AOV,Squarespace Subtotal,Combined Product-ish (Sq Net+SS Sub),Gross Margin %,Subscription Orders (SS),Sympathy Orders (SS),Card Attach % (SS),Pickup-like Orders (SS),Notes
+2026-01,15435.83,218,70.81,9900.51,79,125.32,7963.60,23399.43,,,,,,"SS shipping $1100"
+2026-02,23843.50,334,71.39,22115.86,172,128.58,18313.30,42156.80,,,,,,"Valentine peak both channels"
+2026-03,13223.79,233,56.75,12133.10,83,146.18,9863.60,23087.39,,,,,,"1 Square refund"
+2026-04,12973.82,204,63.60,10152.01,78,130.15,8086.60,21060.42,,,,,,"2 Square refunds"
+2026-05,27529.11,372,74.00,22521.12,168,134.05,18495.60,46024.71,,,,,,"Mother's Day peak both channels"
+2026-06,9291.91,157,59.18,5754.33,45,127.87,4598.85,13890.76,,,,,,"Soft month"
+2026-07,9279.63,162,57.28,7257.98,53,136.94,5890.85,15170.48,,,,,,"Partial: Square through Jul 25; SS through Jul 24"
+YTD-2026,111577.59,1680,66.22,89834.91,678,132.50,73212.40,184789.99,,4,50,0.6,139,"Square median AOV $48.87; SS median total $121.21. Online YTD +41% vs 2025 YTD. See revenue-baseline-2026-ytd.md"

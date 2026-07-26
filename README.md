@@ -41,16 +41,16 @@ Implementation workspace for [dandelionflowershop.com](https://www.dandelionflow
 - Sitemap loads successfully
 - Product page "HOW TO ORDER" copy is live
 - Old checkout warning text removed
-- Revenue data uploaded (Square + Stripe) — see [baseline analysis](docs/strategy/revenue-baseline-2026-ytd.md)
+- Revenue data uploaded (Square + Stripe + Squarespace orders) — see [baseline analysis](docs/strategy/revenue-baseline-2026-ytd.md)
 
 **Still open**
-- Delete duplicate products (Touch of Honey appears twice)
+- Delete duplicate products (Touch of Honey appears twice; `Touch of Honey (Copy)` has a paid order)
 - Update homepage and shop SEO titles
 - Replace 6 marquee H1 blocks with one H1
 - Remove homepage popup
 - Verify checkout gift message and memorial fields
 - Confirm pickup and local delivery settings
-- Stripe **payments** export + COGS (for online monthly + margin)
+- COGS / wholesale (for margin %); active subscription count
 
 ## Contact
 
