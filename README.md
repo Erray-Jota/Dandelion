@@ -18,6 +18,7 @@ Implementation workspace for [dandelionflowershop.com](https://www.dandelionflow
 4. **[AI Agents for Revenue Growth](docs/strategy/ai-agents-for-revenue.md)** — Agent concepts mapped to AOV, margin, and repeat-rate targets
 5. **[Revenue Baseline 2026 YTD](docs/strategy/revenue-baseline-2026-ytd.md)** — Channel dashboard from Square + Squarespace + Stripe exports
 6. **[Revenue Analysis vs Benchmarks](docs/strategy/revenue-analysis-benchmarks.md)** — Week 4: actuals vs national + Alameda targets
+   - **[Revenue Analysis Report (Word)](docs/Dandelion_Revenue_Analysis_Report.docx)** — Downloadable Week 4 report for desktop/printing
 7. **[Product Margin Analysis](docs/strategy/product-margin-analysis.md)** — Weekly COGS allocation model; predicted margins by SKU
 8. **[Revenue, Customer & AOV Analysis](docs/strategy/revenue-customer-aov-analysis.md)** — Week 4 channel + customer deep dive
 7. **[Revenue Data Intake](docs/strategy/revenue-data-intake.md)** — What to export/share for analysis
