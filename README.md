@@ -17,6 +17,7 @@ Implementation workspace for [dandelionflowershop.com](https://www.dandelionflow
 3. **[Physical vs. Digital Strategy Map](docs/strategy/physical-vs-digital-strategy.md)** — Which tactics need outbound effort vs. digital marketing
 4. **[AI Agents for Revenue Growth](docs/strategy/ai-agents-for-revenue.md)** — Agent concepts mapped to AOV, margin, and repeat-rate targets
 5. **[Week 4 P&L Analysis](docs/week-4-pl-analysis.md)** — Annual P&L vs. Alameda benchmarks + 90-day focus metrics (July 26, 2026)
+   - **[Download Word version](docs/Week_4_PL_Analysis.docx)**
 6. **[Revenue Baseline 2026 YTD](docs/strategy/revenue-baseline-2026-ytd.md)** — Analysis from Square + Stripe exports (July 26, 2026)
 7. **[Revenue Data Intake](docs/strategy/revenue-data-intake.md)** — What to export/share for analysis
 8. **[Benchmark Comparison](docs/strategy/benchmark-comparison.csv)** — Actuals vs. Alameda targets side-by-side
