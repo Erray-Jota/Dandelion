@@ -50,7 +50,7 @@ Track monthly via [2026 scorecard](strategy/monthly-scorecard-2026.csv) ([templa
 | Sitemap loads | ✅ |
 | Product page "HOW TO ORDER" copy | ✅ |
 | Old checkout warning text removed | ✅ |
-| Revenue exports uploaded + baseline analysis | ✅ Square + Stripe + Squarespace orders → [baseline](strategy/revenue-baseline-2026-ytd.md) |
+| Revenue exports uploaded + baseline analysis | ✅ Square + Squarespace + Stripe payments → [baseline](strategy/revenue-baseline-2026-ytd.md) |
 
 ---
 
@@ -92,7 +92,7 @@ Track monthly via [2026 scorecard](strategy/monthly-scorecard-2026.csv) ([templa
 
 | Task | Impact | Time |
 |------|--------|------|
-| ~~Export last 12 months orders/revenue~~ | ✅ Square + Squarespace (2015–2026) + Stripe customers | Done |
+| ~~Export last 12 months orders/revenue~~ | ✅ Square + Squarespace + Stripe payments (2015–2026) | Done |
 | ~~Upload to repo or share in chat~~ | ✅ See [`data/revenue/`](../data/revenue/) + [baseline](strategy/revenue-baseline-2026-ytd.md) | Done |
 | **Still need:** COGS + active sub count + wedding tags | Unlocks margin % and high-LTV tracking | 30–60 min |
 | Run test order: delivery + pickup | P0 — verify flow | 30 min |

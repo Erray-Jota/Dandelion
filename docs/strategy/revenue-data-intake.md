@@ -10,7 +10,7 @@ Use this checklist when feeding financial data into the revenue analysis. Share 
 |------|--------|--------|--------|
 | Monthly revenue, last 12–24 months | Square / Squarespace / bank | CSV or Excel | ✅ Square Jan–Jul 2026 + Squarespace monthly 2015–2026 (see [baseline](revenue-baseline-2026-ytd.md)) |
 | Monthly order count | Square / Squarespace orders export | CSV | ✅ Both channels |
-| Annual total revenue (2024 vs 2025) | Tax records / P&L | Number or spreadsheet | 🟡 Online known (SS 2024 $108k / 2025 $106k); Square full-year + P&L still open |
+| Annual total revenue (2024 vs 2025) | Tax records / P&L | Number or spreadsheet | 🟡 Online known (SS/Stripe 2024 $108k / 2025 $106k); Square full-year + P&L still open |
 
 ---
 
@@ -101,4 +101,4 @@ Once data is shared:
 
 ### Latest delivery
 
-**[Revenue Baseline 2026 YTD](revenue-baseline-2026-ytd.md)** — July 26, 2026 from Square + Stripe + **Squarespace orders (2015–2026)** in [`data/revenue/`](../../data/revenue/).
+**[Revenue Baseline 2026 YTD](revenue-baseline-2026-ytd.md)** — July 26, 2026 from Square + Squarespace + **Stripe payments/customers** in [`data/revenue/`](../../data/revenue/).

@@ -1,7 +1,7 @@
 # Revenue Baseline — 2026 YTD (Square + Squarespace + Stripe)
 
-**Analyzed:** July 26, 2026 (updated with Squarespace orders)  
-**Sources:** Square transactions (Jan 6–Jul 25, 2026), Square customers (lifetime), Squarespace orders (May 2015–Jul 24, 2026), Stripe customers (lifetime)  
+**Analyzed:** July 26, 2026 (updated with Squarespace orders + Stripe payments)  
+**Sources:** Square transactions (Jan 6–Jul 25, 2026), Square customers (lifetime), Squarespace orders (May 2015–Jul 24, 2026), Stripe payments (May 2015–Jul 25, 2026), Stripe customers (lifetime)  
 **Raw files:** [`data/revenue/`](../../data/revenue/)
 
 ---
@@ -12,7 +12,8 @@
 2. **AOV gap is the story:** Square median **$49** vs Squarespace median **$121** (total) / **$95** (product subtotal). Online already hits the plan’s $95 target; the counter does not.
 3. **Online is rebounding in 2026** — YTD through Jul 24 is **+$26k / +41%** vs 2025 YTD — but full-year online peaked in 2021 ($150k) and drifted down through 2025.
 4. **Card attach online is ~0.6%** despite a $6.50 add-on SKU. Hero catalog is concentrated: top 5 arrangements = **68%** of 2026 online product revenue.
-5. **Biggest unlocks:** raise POS AOV to match online ladder, default the card add-on, capture emails at Square, grow subscriptions off the holiday + multi-buyer base.
+5. **Stripe payments confirm Squarespace** — 9,339/9,346 orders match (99.9%); online processing fees ~**3.2%** in 2026 (~$2.9k YTD).
+6. **Biggest unlocks:** raise POS AOV to match online ladder, default the card add-on, capture emails at Square, grow subscriptions off the holiday + multi-buyer base.
 
 ---
 
@@ -101,7 +102,35 @@ So 2026 online is **ahead of last two years’ YTD**, even though full-year 2024
 
 Hyperlocal: **94501 + 94502** dominate ship zips; Alameda is the core delivery market.
 
-### Stripe customers (supporting identity file)
+### Stripe payments (confirms Squarespace + adds fees/refunds)
+
+All Squarespace checkouts run through Stripe. Derived rollups: [`stripe-monthly-summary.csv`](../../data/revenue/stripe-monthly-summary.csv) · [`stripe-yearly-summary.csv`](../../data/revenue/stripe-yearly-summary.csv)
+
+| Metric | Value |
+|--------|-------|
+| Paid charges (all-time) | 9,355 · **$1,006,544** gross |
+| Matches Squarespace paid totals | **99.9%** by order ID (4 tiny mismatches / 7 edge-case orders) |
+| 2026 YTD gross (through Jul 25) | **$90,094** on 680 charges (vs SS $89,835 on 678 orders — **+$259**) |
+| 2026 processing fees | **$2,862** (**3.18%** of gross) |
+| 2026 net after Stripe fees | **~$87,231** |
+| Refunded charges (all-time) | 145 · **$14,521** |
+| Failed payment attempts (all-time) | 317 · **$32,387** would-have (mostly CVC/decline) |
+
+**2026 monthly (Stripe gross vs Squarespace total):**
+
+| Month | SS total | Stripe gross | Diff |
+|-------|----------|--------------|------|
+| 2026-01 | $9,901 | $9,813 | −$88 |
+| 2026-02 | $22,116 | $22,204 | +$88 |
+| 2026-03 | $12,133 | $12,023 | −$110 |
+| 2026-04 | $10,152 | $10,262 | +$110 |
+| 2026-05 | $22,521 | $22,521 | $0 |
+| 2026-06 | $5,754 | $5,754 | $0 |
+| 2026-07 | $7,258 | $7,517 | +$259 |
+
+Differences are timing/cutoff noise (Jul 25 Stripe vs Jul 24 SS) plus a handful of legacy orders. **Use Squarespace for product/shipping detail; use Stripe for fees, refunds, and failed-checkout diagnostics.**
+
+### Stripe customers (identity file)
 
 | Metric | Value |
 |--------|-------|
@@ -109,7 +138,7 @@ Hyperlocal: **94501 + 94502** dominate ship zips; Alameda is the core delivery m
 | Lifetime spend on file | $720,801 |
 | Median spend/payment | $102.60 |
 
-Squarespace paid totals all-time (~**$1.005M**) exceed Stripe customer lifetime spend ($721k) — expected if some checkouts never created a Stripe Customer object, or spend fields omit tax/shipping. **Prefer Squarespace orders for online revenue; prefer Stripe/Squarespace emails for CRM.**
+Customer lifetime spend ($721k) is lower than Squarespace/Stripe charge gross ($1.005M / $1.007M) because many checkouts don’t create a Stripe Customer object. **Prefer Squarespace order emails for CRM.**
 
 ---
 
@@ -243,8 +272,10 @@ Online retention is healthier than raw “21% repeat” suggests — nearly half
 
 ## 6. Margin notes
 
-- Still no COGS file.  
-- Online shipping collected YTD: **$8,836** — compare to actual delivery labor/fuel.  
+- Still no COGS file.
+- **Online processing fees:** ~3.2% of gross in 2026 ($2.9k YTD) — normal; not a strategic leak.
+- **Square POS fees:** ~3.0% of collected — similar.
+- Online shipping collected YTD: **$8,836** — compare to actual delivery labor/fuel.
 - Hero concentration helps costing: recost the top 8 online SKUs first.  
 - Delete `Touch of Honey (Copy)` (already sold once).  
 - Sympathy is a real online line (~$7k YTD) — don’t underprice it.
@@ -266,8 +297,8 @@ Online retention is healthier than raw “21% repeat” suggests — nearly half
 | Gap | Status | Ask |
 |-----|--------|-----|
 | Squarespace orders | ✅ Ingested (2015–2026) | — |
-| Online monthly revenue | ✅ From Squarespace | — |
-| Stripe payments export | Optional now (SS covers revenue) | Only if reconciling fees/disputes |
+| Stripe payments | ✅ Ingested (2015–2026) — confirms SS | — |
+| Online monthly revenue | ✅ From Squarespace + Stripe | — |
 | Subscriptions | Partial (78 lifetime SS orders) | Active subscriber count / churn |
 | Weddings | Still missing | Invoices / contracts |
 | COGS | ☐ | Wholesale monthly |
@@ -284,4 +315,6 @@ Online retention is healthier than raw “21% repeat” suggests — nearly half
 | Square customers | ✅ |
 | Stripe customers | ✅ |
 | Squarespace orders May 2015–Jul 2026 | ✅ |
+| Stripe payments May 2015–Jul 2026 | ✅ |
+| Stripe customers | ✅ |
 | Duplicate Square transactions export | ✅ Deduped |
