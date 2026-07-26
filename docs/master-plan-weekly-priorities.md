@@ -32,7 +32,7 @@ Track monthly via [2026 scorecard](strategy/monthly-scorecard-2026.csv) ([templa
 |--------|------------------------------|---------------|-----------------|
 | Everyday AOV | Square median **$49** / mean **$66**; Squarespace median total **$121** / subtotal **$95** | **$95+** (blend; POS median → $75+) | **$110+** |
 | Repeat customer rate | Square **31%**; SS email **21%** (43% of 2026 SS orders from known emails) | **35%+** | **40%+** |
-| Gross margin | Still unknown (no COGS) | **60%+** | **62–68%** |
+| Gross margin | **31.5%** YTD (25.8% in 2025; accounts COGS) | **38%+** near-term | **60%+** long-term (requires repricing) |
 | Homepage conversion | Popup blocking | Popup gone | +15–25% shop visits → orders |
 | Add-on attach (card) | **0.6%** online (4/678 SS orders) | **25%+** | **35%+** |
 | Active subscriptions | 4 SS sub orders in 2026 YTD (78 lifetime) | +10% growth | +20% YoY |
@@ -50,7 +50,7 @@ Track monthly via [2026 scorecard](strategy/monthly-scorecard-2026.csv) ([templa
 | Sitemap loads | ✅ |
 | Product page "HOW TO ORDER" copy | ✅ |
 | Old checkout warning text removed | ✅ |
-| Revenue exports uploaded + baseline analysis | ✅ Square + Squarespace + Stripe payments → [baseline](strategy/revenue-baseline-2026-ytd.md) |
+| Revenue exports uploaded + baseline analysis | ✅ Square + Squarespace + Stripe + accounts COGS → [baseline](strategy/revenue-baseline-2026-ytd.md) · [Week 4 analysis](strategy/revenue-customer-aov-analysis.md) |
 
 ---
 
@@ -92,9 +92,10 @@ Track monthly via [2026 scorecard](strategy/monthly-scorecard-2026.csv) ([templa
 
 | Task | Impact | Time |
 |------|--------|------|
-| ~~Export last 12 months orders/revenue~~ | ✅ Square + Squarespace + Stripe payments (2015–2026) | Done |
-| ~~Upload to repo or share in chat~~ | ✅ See [`data/revenue/`](../data/revenue/) + [baseline](strategy/revenue-baseline-2026-ytd.md) | Done |
-| **Still need:** COGS + active sub count + wedding tags | Unlocks margin % and high-LTV tracking | 30–60 min |
+| ~~Export last 12 months orders/revenue~~ | ✅ Square + Squarespace + Stripe + accounts COGS | Done |
+| ~~Upload to repo or share in chat~~ | ✅ See [`data/revenue/`](../data/revenue/) + analyses | Done |
+| ~~Revenue Analyst review (AOV, channel, seasonality)~~ | ✅ [Week 4 analysis](strategy/revenue-customer-aov-analysis.md) | Done |
+| **Still need:** active sub count + wedding tags + per-SKU recipe costs | Refines margin by product | 30–60 min |
 | Run test order: delivery + pickup | P0 — verify flow | 30 min |
 
 ### AI / automation

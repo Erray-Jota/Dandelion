@@ -31,7 +31,7 @@ Use this checklist when feeding financial data into the revenue analysis. Share 
 
 | Data | Source | What it unlocks | Status |
 |------|--------|-----------------|--------|
-| COGS or wholesale spend (monthly) | Vendor invoices / QuickBooks | Gross margin % | ☐ |
+| COGS or wholesale spend (monthly) | Vendor invoices / QuickBooks | Gross margin % | ✅ Accounts forensic classification (flowers, tax, materials, merch) |
 | Top product recipe costs | Internal costing sheet | Pricing corrections | ☐ |
 | Delivery count per week | Driver log / dispatch | Cost per delivery | ☐ |
 | Waste / shrink notes | Shop estimate | Margin leak identification | ☐ |
@@ -101,4 +101,5 @@ Once data is shared:
 
 ### Latest delivery
 
-**[Revenue Baseline 2026 YTD](revenue-baseline-2026-ytd.md)** — July 26, 2026 from Square + Squarespace + **Stripe payments/customers** in [`data/revenue/`](../../data/revenue/).
+- **[Revenue Baseline 2026 YTD](revenue-baseline-2026-ytd.md)** — channel dashboard from commerce exports
+- **[Revenue, Customer & AOV Analysis](revenue-customer-aov-analysis.md)** — Week 4 deliverable with COGS/margin from accounts

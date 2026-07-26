@@ -16,8 +16,9 @@ Implementation workspace for [dandelionflowershop.com](https://www.dandelionflow
 2. **[Industry Benchmarks & Alameda Targets](docs/strategy/industry-benchmarks.md)** — AOV, margins, retention, wedding/subscription benchmarks
 3. **[Physical vs. Digital Strategy Map](docs/strategy/physical-vs-digital-strategy.md)** — Which tactics need outbound effort vs. digital marketing
 4. **[AI Agents for Revenue Growth](docs/strategy/ai-agents-for-revenue.md)** — Agent concepts mapped to AOV, margin, and repeat-rate targets
-5. **[Revenue Baseline 2026 YTD](docs/strategy/revenue-baseline-2026-ytd.md)** — Analysis from Square + Stripe exports (July 26, 2026)
-6. **[Revenue Data Intake](docs/strategy/revenue-data-intake.md)** — What to export/share for analysis
+5. **[Revenue Baseline 2026 YTD](docs/strategy/revenue-baseline-2026-ytd.md)** — Channel dashboard from Square + Squarespace + Stripe exports
+6. **[Revenue, Customer & AOV Analysis](docs/strategy/revenue-customer-aov-analysis.md)** — Week 4 analysis with COGS/margin from accounts
+7. **[Revenue Data Intake](docs/strategy/revenue-data-intake.md)** — What to export/share for analysis
 7. **[Monthly Scorecard (2026)](docs/strategy/monthly-scorecard-2026.csv)** — Filled Square baseline + open online/margin fields
 8. **[Monthly Scorecard Template](docs/strategy/monthly-scorecard-template.csv)** — Blank KPI tracker
 9. **[Raw revenue exports](data/revenue/)** — Square transactions/customers + Stripe customers
@@ -50,7 +51,7 @@ Implementation workspace for [dandelionflowershop.com](https://www.dandelionflow
 - Remove homepage popup
 - Verify checkout gift message and memorial fields
 - Confirm pickup and local delivery settings
-- COGS / wholesale (for margin %); active subscription count
+- COGS / wholesale for margin
 
 ## Contact
 
