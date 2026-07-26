@@ -8,9 +8,9 @@ Use this checklist when feeding financial data into the revenue analysis. Share 
 
 | Data | Source | Format | Status |
 |------|--------|--------|--------|
-| Monthly revenue, last 12–24 months | Square / Squarespace / bank | CSV or Excel | ☐ |
-| Monthly order count | Square / Squarespace orders export | CSV | ☐ |
-| Annual total revenue (2024 vs 2025) | Tax records / P&L | Number or spreadsheet | ☐ |
+| Monthly revenue, last 12–24 months | Square / Squarespace / bank | CSV or Excel | ✅ Square Jan–Jul 2026 + Squarespace monthly 2015–2026 (see [baseline](revenue-baseline-2026-ytd.md)) |
+| Monthly order count | Square / Squarespace orders export | CSV | ✅ Both channels |
+| Annual total revenue (2024 vs 2025) | Tax records / P&L | Number or spreadsheet | 🟡 Online known (SS/Stripe 2024 $108k / 2025 $106k); Square full-year + P&L still open |
 
 ---
 
@@ -18,10 +18,10 @@ Use this checklist when feeding financial data into the revenue analysis. Share 
 
 | Data | Source | What it unlocks | Status |
 |------|--------|-----------------|--------|
-| Sales by product (SKU/name) | Squarespace Commerce export | Hero products, margin focus, catalog pruning | ☐ |
-| Sales by category | POS or manual tags | Everyday vs. sympathy vs. sub vs. wedding | ☐ |
-| Online vs. in-store vs. phone | Square / manual estimate | Channel investment priority | ☐ |
-| Subscription revenue separately | Square recurring or manual | MRR, churn, LTV | ☐ |
+| Sales by product (SKU/name) | Squarespace Commerce export | Hero products, margin focus, catalog pruning | ✅ Squarespace line items clean; Square POS names still messy |
+| Sales by category | POS or manual tags | Everyday vs. sympathy vs. sub vs. wedding | 🟡 SS sympathy/subs visible; weddings still under-tagged |
+| Online vs. in-store vs. phone | Square / manual estimate | Channel investment priority | ✅ Square vs Squarespace (~55/45 product-ish) |
+| Subscription revenue separately | Square recurring or manual | MRR, churn, LTV | 🟡 78 lifetime SS “Monthly Flower Subscription” orders; active count unknown |
 | Wedding revenue (annual) | Invoices / deposits | Event pipeline value | ☐ |
 | Wire / third-party orders | FTD / Teleflora statements | Fee drag analysis | ☐ |
 
@@ -31,11 +31,11 @@ Use this checklist when feeding financial data into the revenue analysis. Share 
 
 | Data | Source | What it unlocks | Status |
 |------|--------|-----------------|--------|
-| COGS or wholesale spend (monthly) | Vendor invoices / QuickBooks | Gross margin % |
-| Top product recipe costs | Internal costing sheet | Pricing corrections |
-| Delivery count per week | Driver log / dispatch | Cost per delivery |
-| Waste / shrink notes | Shop estimate | Margin leak identification |
-| Labor hours (design + delivery) | Payroll / estimate | True cost per order |
+| COGS or wholesale spend (monthly) | Vendor invoices / QuickBooks | Gross margin % | ☐ |
+| Top product recipe costs | Internal costing sheet | Pricing corrections | ☐ |
+| Delivery count per week | Driver log / dispatch | Cost per delivery | ☐ |
+| Waste / shrink notes | Shop estimate | Margin leak identification | ☐ |
+| Labor hours (design + delivery) | Payroll / estimate | True cost per order | ☐ |
 
 ---
 
@@ -43,10 +43,10 @@ Use this checklist when feeding financial data into the revenue analysis. Share 
 
 | Data | Source | What it unlocks | Status |
 |------|--------|-----------------|--------|
-| Customer email list size | Squarespace / Mailchimp | Retention campaign reach |
-| Repeat purchase rate | Square customer report | Retention health |
-| Active subscription count | Manual / POS | Recurring base size |
-| Corporate accounts (if any) | AR / invoice list | B2B expansion baseline |
+| Customer email list size | Squarespace / Mailchimp | Retention campaign reach | ✅ ~5,986 Squarespace payer emails (+ Square 1,316; Stripe 4,202) |
+| Repeat purchase rate | Square customer report | Retention health | ✅ Square 31% (2+ txs); SS email repeat 21%; 43% of 2026 SS orders from known emails |
+| Active subscription count | Manual / POS | Recurring base size | ☐ |
+| Corporate accounts (if any) | AR / invoice list | B2B expansion baseline | 🟡 Only 6 Square profiles with company name |
 
 ---
 
@@ -98,3 +98,7 @@ Once data is shared:
 3. **2–3 prioritized growth levers** with numeric targets
 4. **Margin recommendations** — pricing, product mix, cost controls
 5. **90-day action plan** tied to measurable outcomes
+
+### Latest delivery
+
+**[Revenue Baseline 2026 YTD](revenue-baseline-2026-ytd.md)** — July 26, 2026 from Square + Squarespace + **Stripe payments/customers** in [`data/revenue/`](../../data/revenue/).

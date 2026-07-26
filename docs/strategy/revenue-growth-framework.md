@@ -2,7 +2,8 @@
 
 **Purpose:** Framework for analyzing revenue, margin, and growth levers — not a tactical website checklist.  
 **Store:** Dandelion Flowers · 1548 Webster St, Alameda · Since 2010  
-**Last updated:** July 25, 2026
+**Last updated:** July 26, 2026  
+**Measured baseline:** [Revenue Baseline 2026 YTD](revenue-baseline-2026-ytd.md) (Square + Stripe exports)
 
 ---
 

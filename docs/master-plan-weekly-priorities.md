@@ -1,7 +1,7 @@
 # Dandelion Master Plan — Weekly Priorities for Maximum Revenue Impact
 
 **Single consolidated plan:** Website development · Revenue strategy · AI agents · Outbound sales  
-**Last updated:** July 25, 2026  
+**Last updated:** July 26, 2026  
 **Principle:** Every week focuses on **2–3 high-impact moves** — not everything at once.
 
 ---
@@ -26,17 +26,20 @@ Work is ranked by **expected revenue impact per hour invested**, not by task cat
 
 ## Target Metrics (Alameda-adjusted)
 
-Track monthly via [monthly scorecard](strategy/monthly-scorecard-template.csv).
+Track monthly via [2026 scorecard](strategy/monthly-scorecard-2026.csv) ([template](strategy/monthly-scorecard-template.csv)). Full write-up: [Revenue Baseline 2026 YTD](strategy/revenue-baseline-2026-ytd.md).
 
-| Metric | Baseline (estimate) | 90-day target | 12-month target |
-|--------|---------------------|---------------|-----------------|
-| Everyday AOV | ~$80–90 | **$95+** | **$110+** |
-| Repeat customer rate | Unknown | **35%+** | **40%+** |
-| Gross margin | Unknown | **60%+** | **62–68%** |
+| Metric | Baseline (measured Jul 2026) | 90-day target | 12-month target |
+|--------|------------------------------|---------------|-----------------|
+| Everyday AOV | Square median **$49** / mean **$66**; Squarespace median total **$121** / subtotal **$95** | **$95+** (blend; POS median → $75+) | **$110+** |
+| Repeat customer rate | Square **31%**; SS email **21%** (43% of 2026 SS orders from known emails) | **35%+** | **40%+** |
+| Gross margin | Still unknown (no COGS) | **60%+** | **62–68%** |
 | Homepage conversion | Popup blocking | Popup gone | +15–25% shop visits → orders |
-| Add-on attach (card) | ~0% | **25%+** | **35%+** |
-| Active subscriptions | Unknown | +10% growth | +20% YoY |
-| Wedding inquiries → close | Unknown | Track baseline | +2 weddings/quarter |
+| Add-on attach (card) | **0.6%** online (4/678 SS orders) | **25%+** | **35%+** |
+| Active subscriptions | 4 SS sub orders in 2026 YTD (78 lifetime) | +10% growth | +20% YoY |
+| Wedding inquiries → close | Under-tagged / not in SS | Track baseline | +2 weddings/quarter |
+| Combined YTD (product-ish) | **~$185k** (Square net $112k + SS subtotal $73k) | — | — |
+| Online YTD vs 2025 | Squarespace **+41%** through Jul 24 | Protect recovery | Beat 2021 peak mix via AOV+repeat |
+| Email / phone capture | Square email **7.5%** of profiles; SS **~5,986** payer emails | ≥85% Square txs with email or phone | Full CRM hygiene |
 
 ---
 
@@ -47,6 +50,7 @@ Track monthly via [monthly scorecard](strategy/monthly-scorecard-template.csv).
 | Sitemap loads | ✅ |
 | Product page "HOW TO ORDER" copy | ✅ |
 | Old checkout warning text removed | ✅ |
+| Revenue exports uploaded + baseline analysis | ✅ Square + Squarespace + Stripe payments → [baseline](strategy/revenue-baseline-2026-ytd.md) |
 
 ---
 
@@ -88,8 +92,9 @@ Track monthly via [monthly scorecard](strategy/monthly-scorecard-template.csv).
 
 | Task | Impact | Time |
 |------|--------|------|
-| **Export last 12 months orders/revenue** | P0 — unlocks all analysis | 30 min |
-| Upload to repo or share in chat | Activates Revenue Analyst | 15 min |
+| ~~Export last 12 months orders/revenue~~ | ✅ Square + Squarespace + Stripe payments (2015–2026) | Done |
+| ~~Upload to repo or share in chat~~ | ✅ See [`data/revenue/`](../data/revenue/) + [baseline](strategy/revenue-baseline-2026-ytd.md) | Done |
+| **Still need:** COGS + active sub count + wedding tags | Unlocks margin % and high-LTV tracking | 30–60 min |
 | Run test order: delivery + pickup | P0 — verify flow | 30 min |
 
 ### AI / automation
@@ -102,7 +107,7 @@ Track monthly via [monthly scorecard](strategy/monthly-scorecard-template.csv).
 - [ ] Popup gone
 - [ ] No duplicate products on homepage
 - [ ] Gift message + occasion fields live at checkout
-- [ ] Revenue export uploaded
+- [x] Revenue export uploaded (+ baseline written)
 - [ ] Test orders pass
 
 **Est. revenue impact:** Conversion recovery — industry suggests popups without CTAs cause 10–30% first-visit bounce; even 5 extra orders/week @ $90 = **~$23K/year**.
