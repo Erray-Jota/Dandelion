@@ -16,11 +16,14 @@ Implementation workspace for [dandelionflowershop.com](https://www.dandelionflow
 2. **[Industry Benchmarks & Alameda Targets](docs/strategy/industry-benchmarks.md)** — AOV, margins, retention, wedding/subscription benchmarks
 3. **[Physical vs. Digital Strategy Map](docs/strategy/physical-vs-digital-strategy.md)** — Which tactics need outbound effort vs. digital marketing
 4. **[AI Agents for Revenue Growth](docs/strategy/ai-agents-for-revenue.md)** — Agent concepts mapped to AOV, margin, and repeat-rate targets
-5. **[Revenue Baseline 2026 YTD](docs/strategy/revenue-baseline-2026-ytd.md)** — Analysis from Square + Stripe exports (July 26, 2026)
-6. **[Revenue Data Intake](docs/strategy/revenue-data-intake.md)** — What to export/share for analysis
-7. **[Monthly Scorecard (2026)](docs/strategy/monthly-scorecard-2026.csv)** — Filled Square baseline + open online/margin fields
-8. **[Monthly Scorecard Template](docs/strategy/monthly-scorecard-template.csv)** — Blank KPI tracker
-9. **[Raw revenue exports](data/revenue/)** — Square transactions/customers + Stripe customers
+5. **[Week 4 P&L Analysis](docs/week-4-pl-analysis.md)** — Annual P&L vs. Alameda benchmarks + 90-day focus metrics (July 26, 2026)
+6. **[Revenue Baseline 2026 YTD](docs/strategy/revenue-baseline-2026-ytd.md)** — Analysis from Square + Stripe exports (July 26, 2026)
+7. **[Revenue Data Intake](docs/strategy/revenue-data-intake.md)** — What to export/share for analysis
+8. **[Benchmark Comparison](docs/strategy/benchmark-comparison.csv)** — Actuals vs. Alameda targets side-by-side
+9. **[Monthly Scorecard (2023–2026)](docs/strategy/monthly-scorecard-2023-2026.csv)** — Bank P&L metrics by month
+10. **[Monthly Scorecard (2026)](docs/strategy/monthly-scorecard-2026.csv)** — Filled Square baseline + open online/margin fields
+11. **[Monthly Scorecard Template](docs/strategy/monthly-scorecard-template.csv)** — Blank KPI tracker
+12. **[Raw revenue exports](data/revenue/)** — Square transactions/customers + Stripe customers
 
 ### Website Optimization (detail)
 1. **[Week 1 Implementation Guide](docs/week-1-implementation-guide.md)** — Squarespace task detail + live site status
