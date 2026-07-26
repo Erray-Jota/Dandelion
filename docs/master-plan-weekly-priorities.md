@@ -26,13 +26,13 @@ Work is ranked by **expected revenue impact per hour invested**, not by task cat
 
 ## Target Metrics (Alameda-adjusted)
 
-Track monthly via [2026 scorecard](strategy/monthly-scorecard-2026.csv) ([template](strategy/monthly-scorecard-template.csv)). Full write-up: [Revenue Baseline 2026 YTD](strategy/revenue-baseline-2026-ytd.md).
+Track monthly via [2026 scorecard](strategy/monthly-scorecard-2026.csv) ([template](strategy/monthly-scorecard-template.csv)). Full write-up: [Revenue Baseline 2026 YTD](strategy/revenue-baseline-2026-ytd.md) · [Benchmark analysis](strategy/revenue-analysis-benchmarks.md).
 
 | Metric | Baseline (measured Jul 2026) | 90-day target | 12-month target |
 |--------|------------------------------|---------------|-----------------|
 | Everyday AOV | Square median **$49** / mean **$66**; Squarespace median total **$121** / subtotal **$95** | **$95+** (blend; POS median → $75+) | **$110+** |
 | Repeat customer rate | Square **31%**; SS email **21%** (43% of 2026 SS orders from known emails) | **35%+** | **40%+** |
-| Gross margin | Still unknown (no COGS) | **60%+** | **62–68%** |
+| Gross margin | **31.5%** YTD (25.8% in 2025; accounts COGS) | **38%+** near-term | **60%+** long-term (requires repricing) |
 | Homepage conversion | Popup blocking | Popup gone | +15–25% shop visits → orders |
 | Add-on attach (card) | **0.6%** online (4/678 SS orders) | **25%+** | **35%+** |
 | Active subscriptions | 4 SS sub orders in 2026 YTD (78 lifetime) | +10% growth | +20% YoY |
@@ -50,7 +50,7 @@ Track monthly via [2026 scorecard](strategy/monthly-scorecard-2026.csv) ([templa
 | Sitemap loads | ✅ |
 | Product page "HOW TO ORDER" copy | ✅ |
 | Old checkout warning text removed | ✅ |
-| Revenue exports uploaded + baseline analysis | ✅ Square + Squarespace + Stripe payments → [baseline](strategy/revenue-baseline-2026-ytd.md) |
+| Revenue exports uploaded + baseline analysis | ✅ Square + Squarespace + Stripe + accounts COGS → [baseline](strategy/revenue-baseline-2026-ytd.md) · [Week 4 analysis](strategy/revenue-customer-aov-analysis.md) |
 
 ---
 
@@ -92,9 +92,10 @@ Track monthly via [2026 scorecard](strategy/monthly-scorecard-2026.csv) ([templa
 
 | Task | Impact | Time |
 |------|--------|------|
-| ~~Export last 12 months orders/revenue~~ | ✅ Square + Squarespace + Stripe payments (2015–2026) | Done |
-| ~~Upload to repo or share in chat~~ | ✅ See [`data/revenue/`](../data/revenue/) + [baseline](strategy/revenue-baseline-2026-ytd.md) | Done |
-| **Still need:** COGS + active sub count + wedding tags | Unlocks margin % and high-LTV tracking | 30–60 min |
+| ~~Export last 12 months orders/revenue~~ | ✅ Square + Squarespace + Stripe + accounts COGS | Done |
+| ~~Upload to repo or share in chat~~ | ✅ See [`data/revenue/`](../data/revenue/) + analyses | Done |
+| ~~Revenue Analyst review (AOV, channel, seasonality)~~ | ✅ [Week 4 analysis](strategy/revenue-customer-aov-analysis.md) | Done |
+| **Still need:** active sub count + wedding tags + per-SKU recipe costs | Refines margin by product | 30–60 min |
 | Run test order: delivery + pickup | P0 — verify flow | 30 min |
 
 ### AI / automation
@@ -198,10 +199,10 @@ Track monthly via [2026 scorecard](strategy/monthly-scorecard-2026.csv) ([templa
 
 | Task | Impact | Time |
 |------|--------|------|
-| **Revenue Analyst review** — AOV, channel mix, seasonality | P0 for strategy | 2 hrs |
-| Complete [monthly scorecard](strategy/monthly-scorecard-template.csv) | Tracking | 1 hr |
-| Compare actuals vs. [benchmarks](strategy/industry-benchmarks.md) | Prioritization | 1 hr |
-| **Choose 2 focus metrics** for next 8 weeks | Focus | 30 min |
+| **Revenue Analyst review** — AOV, channel mix, seasonality | ✅ [Done](strategy/revenue-customer-aov-analysis.md) | — |
+| Complete [monthly scorecard](strategy/monthly-scorecard-2026.csv) | ✅ 2026 YTD filled with GP% | — |
+| Compare actuals vs. [benchmarks](strategy/industry-benchmarks.md) | ✅ [Revenue analysis vs Alameda targets](strategy/revenue-analysis-benchmarks.md) | — |
+| **Choose 2 focus metrics** for next 8 weeks | ✅ **POS median AOV $49→$75** + **GP% 31.5%→38%** | — |
 
 ### Website (fill gaps only)
 
@@ -214,14 +215,15 @@ Track monthly via [2026 scorecard](strategy/monthly-scorecard-2026.csv) ([templa
 
 | Task | Impact | Time |
 |------|--------|------|
-| Recost SKUs 6–10 | P1 | 2 hrs |
-| Flag any SKU below 60% margin | Action list | 30 min |
+| Recost top 5 SKUs | P1 — margin | 2 hrs | ✅ Predicted margins → [product-margin-analysis](strategy/product-margin-analysis.md) |
+| Flag any SKU below 60% margin | Action list | 30 min | ✅ All heroes flagged below 38%; Touch of Honey worst at ~30% |
 
 **Week 4 success criteria:**
-- [ ] Scorecard filled with real baseline
-- [ ] 90-day targets written (2 metrics)
+- [x] Scorecard filled with real baseline (+ gross margin %)
+- [x] Revenue / customer / AOV analysis complete
+- [x] 90-day targets written (2 metrics) — POS AOV + GP%; see [benchmark analysis](strategy/revenue-analysis-benchmarks.md) §8
 - [ ] Week 1 website QA complete
-- [ ] Margin issues list created
+- [x] Margin issues list created → [product-margin-analysis](strategy/product-margin-analysis.md) (all 9 heroes below 38% full-COGS GP)
 
 **Est. revenue impact:** Indirect — prevents working on wrong levers; margin fixes often **$6–15K/year**.
 
@@ -509,6 +511,7 @@ These five items alone address conversion, AOV, data, and retention — the high
 | Physical vs digital | [strategy/physical-vs-digital-strategy.md](strategy/physical-vs-digital-strategy.md) |
 | AI agents | [strategy/ai-agents-for-revenue.md](strategy/ai-agents-for-revenue.md) |
 | Data intake | [strategy/revenue-data-intake.md](strategy/revenue-data-intake.md) |
+| Benchmark analysis | [strategy/revenue-analysis-benchmarks.md](strategy/revenue-analysis-benchmarks.md) |
 | QA checklist | [checklists/week-1-qa.md](checklists/week-1-qa.md) |
 
 ---

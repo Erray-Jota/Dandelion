@@ -24,8 +24,8 @@ Source files for the Week 1 revenue baseline (July 26, 2026).
 
 **Still needed** (see [revenue data intake](../../docs/strategy/revenue-data-intake.md)):
 
-- COGS / wholesale spend for margin
+- Per-SKU **recipe** costs (to validate predicted margins)
 - Active subscription count + wedding revenue tags
 - Wire / FTD statements if used
 
-Analysis: [Revenue Baseline 2026 YTD](../../docs/strategy/revenue-baseline-2026-ytd.md)
+Analysis: [Revenue Baseline 2026 YTD](../../docs/strategy/revenue-baseline-2026-ytd.md) · [Customer & AOV Analysis](../../docs/strategy/revenue-customer-aov-analysis.md)
